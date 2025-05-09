@@ -54,7 +54,20 @@ In digital electronics, logic levels refer to the specific voltage ranges that r
 | LOW         | 0            | 0 V to 0.8 V           | 0 V to ~1/3 Vdd         |
 | HIGH        | 1            | 2 V to 5 V             | ~2/3 Vdd to Vdd         |
 * TTL = Transistor-Transistor Logic (usually Vcc = 5V)
-* CMOS = Complementary Metal-Oxide-Semiconductor 
+* CMOS = Complementary Metal-Oxide-Semiconductor
+# NUMBER SYSTEM
+A number system is a way to represent and express numbers using a set of symbols or digits. In digital electronics, number systems are used to represent data and perform calculations inside digital circuits and computers.
+
+# Different number systems are BINARY, OCTAL,DECIMAL, HEXADECIMAL
+| Number System | Base | Digits Used              | Key Point | Example |
+|---------------|------|--------------------------|-----------|---------|
+| Binary        | 2    | 0, 1                     | Fundamental for all digital circuits and computers; data is processed in bits (0s & 1s). | 1011₂ ( = 11 in decimal ) |
+| Octal         | 8    | 0-7                      | Compact representation of binary; often used in older computer systems and some embedded systems. | 745₈ ( = 493 in decimal ) |
+| Decimal       | 10   | 0-9                      | Natural number system used by humans; common for input/output display. | 259₁₀ |
+| Hexadecimal   | 16   | 0-9, A-F (A=10 ... F=15) | Compact representation of binary; widely used in programming, memory addressing. | 3F₁₆ ( = 63 in decimal ) |
+# Conversion between number system
+
+
 
 
 
