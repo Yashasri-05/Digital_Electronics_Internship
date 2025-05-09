@@ -38,27 +38,31 @@ These two states are typically represented by:
 
 8. Banking, Security, and E-commerce
 
-# Digital VS Analog
+# Digital VS Analog signals
+|  ASPECT | DIGITAL SIGNAL | ANALOG SIGNAL|
+|----------|----------|----------|
+| Nature | Discrete   | Continuous
+| Signal Representation |  Square waves | Sine waves (or continuous waveforms)|
+|  Values| Finite set of values (typically 2: 0 and 1) | Infinite possible values within range|
+| Transmission | Difficult over long distances | Easy and accurate over long distances   |
+|Devices| Computers, digital watches, microcontrollers | Microphones, speakers, analog radios | | Data Processing | Easier and more precise | More complex and less precise |            
+| Examples | Computer data, digital telephony  | Audio signals, temperature sensors |
+# LOGIC LEVELS
+In digital electronics, logic levels refer to the specific voltage ranges that represent binary states — typically 0 (LOW) and 1 (HIGH). These levels indicate how the digital system interprets voltages as logical TRUE (1) or FALSE (0).
+| Logic Level | Binary State | Typical Voltage (TTL)* | Typical Voltage (CMOS)* |
+|-------------|--------------|------------------------|-------------------------|
+| LOW         | 0            | 0 V to 0.8 V           | 0 V to ~1/3 Vdd         |
+| HIGH        | 1            | 2 V to 5 V             | ~2/3 Vdd to Vdd         |
+* TTL = Transistor-Transistor Logic (usually Vcc = 5V)
+* CMOS = Complementary Metal-Oxide-Semiconductor 
 
-# Analog                                                                             
 
-1.Continuous signals                                                               
 
-2.Can represent infinite possible values within a range 
+ 
 
-3.More susceptible to noise and degradation
 
-4.Examples: vinyl records, analog clocks, FM/AM radio  
 
-# Digital
 
-1.Discrete signals
-
-2.Represents information in binary (0s and 1s) |
-
-3.More resistant to noise and interference
-
-4.Examples: CDs, digital clocks, streaming audio |
 
 
 
