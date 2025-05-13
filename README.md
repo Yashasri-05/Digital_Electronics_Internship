@@ -204,6 +204,66 @@ Group 3 bits: **000** | **101** | **111**
 111 → 7
 
 Result → **057₈**
+# BASIC LOGIC GATES
+# 1.AND GATE
+# Symbol:
+A D-shaped gate with two inputs and one output.
+![image](https://github.com/user-attachments/assets/e31cb1e3-f24e-4d0e-b578-62df47243714)
+# Function:
+The AND gate outputs 1 (true) only when both inputs are 1. Otherwise, it outputs 0.
+
+A.B=X.
+The value of X will be True when both the inputs will be True.
+# Truth Table
+| A | B | A AND B |
+|---|---|---------|
+| 0 | 0 |    0    |
+| 0 | 1 |    0    |
+| 1 | 0 |    0    |
+| 1 | 1 |    1    |
+# 2. OR GATE
+# Symbol:
+A curved-shaped gate with two inputs and one output.
+![image](https://github.com/user-attachments/assets/0e00f4a2-03be-4a14-b6d3-2683a953a1c8)
+# Function:
+The OR gate outputs 1 (true) if at least one input is 1. It outputs 0 only when both inputs are 0.
+# Truth Table
+| A | B | A OR B |
+|---|---|--------|
+| 0 | 0 |   0    |
+| 0 | 1 |   1    |
+| 1 | 0 |   1    |
+| 1 | 1 |   1    |
+# 3. NOT GATE
+# Symbol:
+The symbol for a NOT gate is a triangle with a small circle at the output
+![image](https://github.com/user-attachments/assets/167b5b31-b5a7-4d2e-8a05-2be10719deb6)
+# Function :
+The output Y is the negation of the input A, respresented as, Y =  Ā 
+Returns 1, if the input is 0.
+Returns 0, if the input is 1.
+# Truth table : 
+| Input | Output |
+|-------|--------|
+|   0   |   1    |
+|   1   |   0    |
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
