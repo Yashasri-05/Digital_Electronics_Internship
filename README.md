@@ -1,5 +1,12 @@
 #                                                                                       DIGITAL ELECTRONICS
+#  📘 Table of Contents
 
+-  What is Digital Electronics 
+-  Applications of Digital Electronics
+-  Digital vs Analog Signals
+-  Number Systems
+-  Conversion between Number System
+-  Basic Logic Gates
 # What is digital electronics?
 Digital electronics is a branch of electronics that deals with systems that use discrete (distinct) signal levels, typically represented by binary numbers — 0 and 1. Unlike analog electronics, where signals can vary smoothly across a range of values, digital electronics processes information using only two states (usually referred to as LOW and HIGH, or OFF and ON).
 
@@ -204,41 +211,55 @@ Group 3 bits: **000** | **101** | **111**
 111 → 7
 
 Result → **057₈**
+------------------------------------------------
 # BASIC LOGIC GATES
 # 1.AND GATE
-# Symbol:
+# Symbol: 
 A D-shaped gate with two inputs and one output.
-![image](https://github.com/user-attachments/assets/e31cb1e3-f24e-4d0e-b578-62df47243714)
-# Function:
-The AND gate outputs 1 (true) only when both inputs are 1. Otherwise, it outputs 0.
+![image](https://github.com/user-attachments/assets/3e36fc0b-6c73-47c8-b9d2-3443040a2633)
 
-A.B=X.
-The value of X will be True when both the inputs will be True.
+
+
+
+# Function:
+The AND gate outputs 1 (true) only when both inputs are 1.  Otherwise, it outputs 0.
+
+- A.B=X.
+- The value of X will be True when both the inputs will be True.
 # Truth Table
-| A | B | A AND B |
+| A | B | OUTPUT |
 |---|---|---------|
 | 0 | 0 |    0    |
 | 0 | 1 |    0    |
 | 1 | 0 |    0    |
 | 1 | 1 |    1    |
+----------------------------------------------
 # 2. OR GATE
 # Symbol:
 A curved-shaped gate with two inputs and one output.
-![image](https://github.com/user-attachments/assets/0e00f4a2-03be-4a14-b6d3-2683a953a1c8)
+![image](https://github.com/user-attachments/assets/f28a85ff-f485-4797-9208-147a4ccc13fd)
+
 # Function:
-The OR gate outputs 1 (true) if at least one input is 1. It outputs 0 only when both inputs are 0.
+The OR gate outputs 1 (true) if at least one input is 1.
+- It outputs 0 only when both inputs are 0.
 # Truth Table
-| A | B | A OR B |
+| A | B | OUTPUT |
 |---|---|--------|
 | 0 | 0 |   0    |
 | 0 | 1 |   1    |
 | 1 | 0 |   1    |
 | 1 | 1 |   1    |
+----------------------------------------------------
 # 3. NOT GATE
 # Symbol:
-The symbol for a NOT gate is a triangle with a small circle at the output
-![image](https://github.com/user-attachments/assets/167b5b31-b5a7-4d2e-8a05-2be10719deb6)
-# Function :
+![image](https://github.com/user-attachments/assets/3480276f-2c3a-44c8-9679-c2a2c5025db2)
+
+The NOT gate symbol represents a digital logic inverter, and it is visually distinct from other logic gates. It typically consists of:
+
+- A triangle pointing to the right
+
+- A small circle (called a "bubble") at the output, which indicates inversion
+# Function : 
 The output Y is the negation of the input A, respresented as, Y =  Ā 
 Returns 1, if the input is 0.
 Returns 0, if the input is 1.
@@ -247,6 +268,90 @@ Returns 0, if the input is 1.
 |-------|--------|
 |   0   |   1    |
 |   1   |   0    |
+-------------------------------------------------
+# 4.NAND GATE
+# Symbol: 
+![image](https://github.com/user-attachments/assets/a6bee8cf-7886-464a-bf05-ff57d85ea8af)
+# Function : 
+A NAND (Not AND) gate gives an output of 0 only when both inputs are 1. 
+- It is the inverse of the AND gate.
+# Truth Table
+
+| A | B | OUTPUT|
+|---|---|--------------|
+| 0 | 0 |      1       |
+| 0 | 1 |      1       |
+| 1 | 0 |      1       |
+| 1 | 1 |      0       |
+---------------------------------
+# 5.NOR GATE
+# Symbol : 
+![image](https://github.com/user-attachments/assets/70dbab86-f721-4074-9a6f-1c2859528282)
+# Function : 
+A NOR (Not OR) gate gives an output of 1 only when both inputs are 0. 
+- It is the inverse of the OR gate.
+# Truth Table : 
+
+| A | B | OUTPUT|
+|---|---|--------------|
+| 0 | 0 |      1       |
+| 0 | 1 |      0       |
+| 1 | 0 |      0       |
+| 1 | 1 |      0       |
+----------------------------------------------
+# 6. XOR GATE
+# Symbol : 
+![image](https://github.com/user-attachments/assets/a991835c-94c9-4a45-9879-d7b90dfad3ae)
+# Function : 
+The XOR (Exclusive OR) gate gives an output of 1 only when the inputs are different.
+
+- Boolean Expression : Y = A ⊕ B = A̅·B + A·B̅
+
+# Truth Table : 
+
+| A | B | OUTPUT |
+|---|---|------------|
+| 0 | 0 |     0      |
+| 0 | 1 |     1      |
+| 1 | 0 |     1      |
+| 1 | 1 |     0      |
+--------------------------------------------------
+# 7. XNOR GATE : 
+# Symbol : 
+![image](https://github.com/user-attachments/assets/2cf6f390-fd75-4447-be10-c7c2bb72d622)
+# Function : 
+The XNOR (Exclusive NOR) gate gives an output of 1 only when the inputs are the same.
+
+- Boolean Expression : Y = (A ⊕ B)̅ = A·B + A̅·B̅
+# Truth Table : 
+
+| A | B | OUTPUT|
+|---|---|---------------|
+| 0 | 0 |       1       |
+| 0 | 1 |       0       |
+| 1 | 0 |       0       |
+| 1 | 1 |       1       |
+-----------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
