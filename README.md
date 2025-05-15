@@ -227,7 +227,7 @@ The AND gate outputs 1 (true) only when both inputs are 1.  Otherwise, it output
 - A.B=X.
 - The value of X will be True when both the inputs will be True.
 # Truth Table
-| A | B | OUTPUT |
+| INP A | INP  B | OUTPUT Y|
 |---|---|---------|
 | 0 | 0 |    0    |
 | 0 | 1 |    0    |
@@ -240,10 +240,10 @@ A curved-shaped gate with two inputs and one output.
 ![image](https://github.com/user-attachments/assets/f28a85ff-f485-4797-9208-147a4ccc13fd)
 
 # Function:
-The OR gate outputs 1 (true) if at least one input is 1.
+The OR gate outputs 1 (true) if at least one  input  is  1.
 - It outputs 0 only when both inputs are 0.
 # Truth Table
-| A | B | OUTPUT |
+|INP A | INP B | OUTPUT Y |
 |---|---|--------|
 | 0 | 0 |   0    |
 | 0 | 1 |   1    |
@@ -264,7 +264,7 @@ The output Y is the negation of the input A, respresented as, Y =  Ā
 Returns 1, if the input is 0.
 Returns 0, if the input is 1.
 # Truth table : 
-| Input | Output |
+| INP A| OUTPUT Y |
 |-------|--------|
 |   0   |   1    |
 |   1   |   0    |
@@ -277,7 +277,7 @@ A NAND (Not AND) gate gives an output of 0 only when both inputs are 1.
 - It is the inverse of the AND gate.
 # Truth Table
 
-| A | B | OUTPUT|
+| INP A | INP B | OUTPUT Y|
 |---|---|--------------|
 | 0 | 0 |      1       |
 | 0 | 1 |      1       |
@@ -292,7 +292,7 @@ A NOR (Not OR) gate gives an output of 1 only when both inputs are 0.
 - It is the inverse of the OR gate.
 # Truth Table : 
 
-| A | B | OUTPUT|
+| INP A | INP B | OUTPUT Y|
 |---|---|--------------|
 | 0 | 0 |      1       |
 | 0 | 1 |      0       |
@@ -309,7 +309,7 @@ The XOR (Exclusive OR) gate gives an output of 1 only when the inputs are differ
 
 # Truth Table : 
 
-| A | B | OUTPUT |
+| INP A | INP  B | OUTPUT Y |
 |---|---|------------|
 | 0 | 0 |     0      |
 | 0 | 1 |     1      |
@@ -325,7 +325,7 @@ The XNOR (Exclusive NOR) gate gives an output of 1 only when the inputs are the 
 - Boolean Expression : Y = (A ⊕ B)̅ = A·B + A̅·B̅
 # Truth Table : 
 
-| A | B | OUTPUT|
+| INP A |  INP B | OUTPUT Y|
 |---|---|---------------|
 | 0 | 0 |       1       |
 | 0 | 1 |       0       |
