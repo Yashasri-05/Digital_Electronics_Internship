@@ -3,7 +3,7 @@
 
 -  [What is Digital Electronics](#What-is-Digital-Electronics) 
 -  [Applications of Digital Electronics](#Applications-of-Digital-Electronics)
--  Digital vs Analog Signals
+-  [Digital vs Analog Signals](#Digital-vs-Analog-Signals)
 -  Number Systems
 -  Conversion between Number System
 -  Basic Logic Gates
@@ -46,7 +46,7 @@ These two states are typically represented by:
 
 8. Banking, Security, and E-commerce
 
-# Digital VS Analog signals
+# Digital vs Analog Signals
 |  ASPECT | DIGITAL SIGNAL | ANALOG SIGNAL|
 |----------|----------|----------|
 | Nature | Discrete   | Continuous
