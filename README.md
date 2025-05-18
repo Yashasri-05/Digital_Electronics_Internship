@@ -1,5 +1,5 @@
 #                                                                                       DIGITAL ELECTRONICS
-#  📘 Table of Contents
+# Table of Contents
 
 -  [What is Digital Electronics](What-is-Digital-Electronics ) 
 -  Applications of Digital Electronics
