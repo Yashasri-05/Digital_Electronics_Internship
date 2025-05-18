@@ -1,14 +1,14 @@
 #                                                                                       DIGITAL ELECTRONICS
 #  📘 Table of Contents
 
--  What is Digital Electronics 
+-  [What is Digital Electronics](What-is-Digital-Electronics ) 
 -  Applications of Digital Electronics
 -  Digital vs Analog Signals
 -  Number Systems
 -  Conversion between Number System
 -  Basic Logic Gates
   
-# What is digital electronics?
+# What is Digital Electronics 
 Digital electronics is a branch of electronics that deals with systems that use discrete (distinct) signal levels, typically represented by binary numbers — 0 and 1. Unlike analog electronics, where signals can vary smoothly across a range of values, digital electronics processes information using only two states (usually referred to as LOW and HIGH, or OFF and ON).
 
 These two states are typically represented by:
