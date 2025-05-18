@@ -215,12 +215,9 @@ Result → **057₈**
 # BASIC LOGIC GATES
 # 1.AND GATE
 # Symbol: 
-A D-shaped gate with two inputs and one output.
-![image](https://github.com/user-attachments/assets/3e36fc0b-6c73-47c8-b9d2-3443040a2633)
+![image](https://github.com/user-attachments/assets/dece6c82-9d25-4ffd-ba99-19ff4d517094)
 
-
-
-
+A curved-shaped gate with two inputs and one output.
 # Function:
 The AND gate outputs 1 (true) only when both inputs are 1.  Otherwise, it outputs 0.
 
@@ -236,9 +233,9 @@ The AND gate outputs 1 (true) only when both inputs are 1.  Otherwise, it output
 ----------------------------------------------
 # 2. OR GATE
 # Symbol:
-A curved-shaped gate with two inputs and one output.
 ![image](https://github.com/user-attachments/assets/f28a85ff-f485-4797-9208-147a4ccc13fd)
 
+A curved-shaped gate with two inputs and one output.
 # Function:
 The OR gate outputs 1 (true) if at least one  input  is  1.
 - It outputs 0 only when both inputs are 0.
@@ -271,7 +268,7 @@ Returns 0, if the input is 1.
 -------------------------------------------------
 # 4.NAND GATE
 # Symbol: 
-![image](https://github.com/user-attachments/assets/a6bee8cf-7886-464a-bf05-ff57d85ea8af)
+![image](https://github.com/user-attachments/assets/32766c05-987f-4de2-92b0-d144c72abf21)
 # Function : 
 A NAND (Not AND) gate gives an output of 0 only when both inputs are 1. 
 - It is the inverse of the AND gate.
@@ -286,7 +283,7 @@ A NAND (Not AND) gate gives an output of 0 only when both inputs are 1.
 ---------------------------------
 # 5.NOR GATE
 # Symbol : 
-![image](https://github.com/user-attachments/assets/70dbab86-f721-4074-9a6f-1c2859528282)
+![image](https://github.com/user-attachments/assets/788f5889-9200-4f3e-ad64-44335ca412f4)
 # Function : 
 A NOR (Not OR) gate gives an output of 1 only when both inputs are 0. 
 - It is the inverse of the OR gate.
@@ -301,7 +298,7 @@ A NOR (Not OR) gate gives an output of 1 only when both inputs are 0.
 ----------------------------------------------
 # 6. XOR GATE
 # Symbol : 
-![image](https://github.com/user-attachments/assets/a991835c-94c9-4a45-9879-d7b90dfad3ae)
+![image](https://github.com/user-attachments/assets/78b2e40f-0922-4638-b52c-06d1429d82a3)
 # Function : 
 The XOR (Exclusive OR) gate gives an output of 1 only when the inputs are different.
 
@@ -318,7 +315,7 @@ The XOR (Exclusive OR) gate gives an output of 1 only when the inputs are differ
 --------------------------------------------------
 # 7. XNOR GATE : 
 # Symbol : 
-![image](https://github.com/user-attachments/assets/2cf6f390-fd75-4447-be10-c7c2bb72d622)
+![image](https://github.com/user-attachments/assets/426f91b1-d20e-450e-bad5-f53eaf0635b9)
 # Function : 
 The XNOR (Exclusive NOR) gate gives an output of 1 only when the inputs are the same.
 
