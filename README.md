@@ -332,7 +332,24 @@ The XNOR (Exclusive NOR) gate gives an output of 1 only when the inputs are the 
 | 1 | 1 |       1       |
 -----------------------------------------------------
 # Integrated Circuits-Ic's
+# Integrated Circuits(Ic's)
+What is an Ic?
+- IC (Integrated Circuit) – A microelectronic device that integrates multiple electronic components into a single chip to perform a specific function or set of functions.
+# Types of Logic Gates and Their ICs
+### Logic Gate IC Table
 
+| Logic Gate | IC Number | Description                  | Number of Gates | Pin Count |
+|------------|-----------|------------------------------|-----------------|-----------|
+| NOT        | 7404      | Hex Inverter                 | 6               | 14        |
+| AND        | 7408      | Quad 2-Input AND Gate        | 4               | 14        |
+| NAND       | 7400      | Quad 2-Input NAND Gate       | 4               | 14        |
+| OR         | 7432      | Quad 2-Input OR Gate         | 4               | 14        |
+| NOR        | 7402      | Quad 2-Input NOR Gate        | 4               | 14        |
+| XOR        | 7486      | Quad 2-Input XOR Gate        | 4               | 14        |
+| XNOR       | 74266     | Quad 2-Input XNOR Gate       | 4               | 14        |
+---------------------------------------------
+# 1.IC 7408 – Quad 2-Input AND Gate
+![image](https://github.com/user-attachments/assets/45aee511-1515-4439-b4e1-4f886250f4a1)
 
 
 
