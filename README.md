@@ -1,8 +1,8 @@
 #                                                                                       DIGITAL ELECTRONICS
 # Table of Contents
 
--  [What is Digital Electronics](What-is-Digital-Electronics) 
--  Applications of Digital Electronics
+-  [What is Digital Electronics](#What-is-Digital-Electronics) 
+-  [Applications of Digital Electronics](#Applications-of-Digital-Electronics)
 -  Digital vs Analog Signals
 -  Number Systems
 -  Conversion between Number System
@@ -17,7 +17,7 @@ These two states are typically represented by:
 
 1 → high voltage (e.g., 5 volts or 3.3 volts)
 
-# Applications of DE
+# Applications of Digital Electronics
 
 
 
