@@ -351,6 +351,195 @@ What is an Ic?
 # 1.IC 7408 – Quad 2-Input AND Gate
 ![image](https://github.com/user-attachments/assets/45aee511-1515-4439-b4e1-4f886250f4a1)
 
+| Pin | Label | Direction | Function         |
+|-----|--------|-----------|------------------|
+| 1   | 1A     | Input     | Gate 1 input A   |
+| 2   | 1B     | Input     | Gate 1 input B   |
+| 3   | 1Y     | Output    | Gate 1 output    |
+| 4   | 2A     | Input     | Gate 2 input A   |
+| 5   | 2B     | Input     | Gate 2 input B   |
+| 6   | 2Y     | Output    | Gate 2 output    |
+| 7   | GND    | —         | Ground           |
+| 8   | 3Y     | Output    | Gate 3 output    |
+| 9   | 3A     | Input     | Gate 3 input A   |
+| 10  | 3B     | Input     | Gate 3 input B   |
+| 11  | 4Y     | Output    | Gate 4 output    |
+| 12  | 4A     | Input     | Gate 4 input A   |
+| 13  | 4B     | Input     | Gate 4 input B   |
+| 14  | Vcc    | —         | +5V Power Supply |
+
+Description:
+
+- Contains 4 AND gates.
+
+- Each AND gate outputs HIGH only if both inputs are HIGH.
+
+- Power: Pin 14 (Vcc), Ground: Pin 7.
+# 2. IC 7432 – Quad 2-Input OR Gate
+![image](https://github.com/user-attachments/assets/c7a91fb3-7d3a-4f40-b5b4-b2173fdfdd41)
+| Pin | Label | Direction | Function         |
+|-----|--------|-----------|------------------|
+| 1   | 1A     | Input     | Gate 1 input A   |
+| 2   | 1B     | Input     | Gate 1 input B   |
+| 3   | 1Y     | Output    | Gate 1 output    |
+| 4   | 2A     | Input     | Gate 2 input A   |
+| 5   | 2B     | Input     | Gate 2 input B   |
+| 6   | 2Y     | Output    | Gate 2 output    |
+| 7   | GND    | —         | Ground           |
+| 8   | 3Y     | Output    | Gate 3 output    |
+| 9   | 3A     | Input     | Gate 3 input A   |
+| 10  | 3B     | Input     | Gate 3 input B   |
+| 11  | 4Y     | Output    | Gate 4 output    |
+| 12  | 4A     | Input     | Gate 4 input A   |
+| 13  | 4B     | Input     | Gate 4 input B   |
+| 14  | Vcc    | —         | +5V Power Supply |
+
+
+Description:
+
+- Features 4 OR gates.
+
+- Each gate gives a HIGH output when at least one input is HIGH.
+
+- Power supply on Pin 14, Ground on Pin 7.
+# 3. IC 7404 – Hex Inverter (NOT Gate)
+![image](https://github.com/user-attachments/assets/3b30e215-e5e4-4324-8286-a39debbb4f89)
+| Pin | Label | Direction | Function           |
+|-----|--------|-----------|--------------------|
+| 1   | 1A     | Input     | Inverter 1 input   |
+| 2   | 1Y     | Output    | Inverter 1 output  |
+| 3   | 2A     | Input     | Inverter 2 input   |
+| 4   | 2Y     | Output    | Inverter 2 output  |
+| 5   | 3A     | Input     | Inverter 3 input   |
+| 6   | 3Y     | Output    | Inverter 3 output  |
+| 7   | GND    | —         | Ground             |
+| 8   | 4Y     | Output    | Inverter 4 output  |
+| 9   | 4A     | Input     | Inverter 4 input   |
+| 10  | 5Y     | Output    | Inverter 5 output  |
+| 11  | 5A     | Input     | Inverter 5 input   |
+| 12  | 6Y     | Output    | Inverter 6 output  |
+| 13  | 6A     | Input     | Inverter 6 input   |
+| 14  | Vcc    | —         | +5V Power Supply   |
+
+Description:
+
+- Has 6 NOT gates (inverters).
+
+- Each gate has 1 input and 1 output.
+
+- Used to invert a digital signal.
+
+- Vcc and GND are on Pins 14 and 7 respectively.
+# 4. IC 7400 – Quad 2-Input NAND Gate
+![image](https://github.com/user-attachments/assets/abae2531-623d-43d1-adbc-73efa6e21c35)
+| Pin | Label | Direction | Function         |
+|-----|--------|-----------|------------------|
+| 1   | 1A     | Input     | Gate 1 input A   |
+| 2   | 1B     | Input     | Gate 1 input B   |
+| 3   | 1Y     | Output    | Gate 1 output    |
+| 4   | 2A     | Input     | Gate 2 input A   |
+| 5   | 2B     | Input     | Gate 2 input B   |
+| 6   | 2Y     | Output    | Gate 2 output    |
+| 7   | GND    | —         | Ground           |
+| 8   | 3Y     | Output    | Gate 3 output    |
+| 9   | 3A     | Input     | Gate 3 input A   |
+| 10  | 3B     | Input     | Gate 3 input B   |
+| 11  | 4Y     | Output    | Gate 4 output    |
+| 12  | 4A     | Input     | Gate 4 input A   |
+| 13  | 4B     | Input     | Gate 4 input B   |
+| 14  | Vcc    | —         | +5V Power Supply |
+
+
+Description:
+
+- Contains 4 NAND gates, each with 2 inputs (A & B) and 1 output (Y).
+
+- Pins 1-6 & 8-13 are logic gate inputs and outputs.
+
+- Pin 14 is for power supply (Vcc = +5V), and Pin 7 is for Ground.
+# 5. IC 7402 – Quad 2-Input NOR Gate
+![image](https://github.com/user-attachments/assets/0697c136-ee71-47d9-bb77-0bdf7f7594dd)
+| Pin | Label | Direction | Function         |
+|-----|--------|-----------|------------------|
+| 1   | 1A     | Input     | Gate 1 input A   |
+| 2   | 1B     | Input     | Gate 1 input B   |
+| 3   | 1Y     | Output    | Gate 1 output    |
+| 4   | 2A     | Input     | Gate 2 input A   |
+| 5   | 2B     | Input     | Gate 2 input B   |
+| 6   | 2Y     | Output    | Gate 2 output    |
+| 7   | GND    | —         | Ground           |
+| 8   | 3Y     | Output    | Gate 3 output    |
+| 9   | 3A     | Input     | Gate 3 input A   |
+| 10  | 3B     | Input     | Gate 3 input B   |
+| 11  | 4Y     | Output    | Gate 4 output    |
+| 12  | 4A     | Input     | Gate 4 input A   |
+| 13  | 4B     | Input     | Gate 4 input B   |
+| 14  | Vcc    | —         | +5V Power Supply |
+
+
+Description:
+
+- Includes 4 independent NOR gates.
+
+- Each gate takes 2 inputs and gives 1 output based on NOR logic.
+
+- Pin 14 supplies power; Pin 7 connects to ground.
+# 6. IC 7486 – Quad 2-Input XOR Gate
+![image](https://github.com/user-attachments/assets/0108f188-5c14-4b4e-abda-4daf1efb4fc1)
+
+| Pin | Label | Direction | Function         |
+|-----|--------|-----------|------------------|
+| 1   | 1A     | Input     | Gate 1 input A   |
+| 2   | 1B     | Input     | Gate 1 input B   |
+| 3   | 1Y     | Output    | Gate 1 output    |
+| 4   | 2A     | Input     | Gate 2 input A   |
+| 5   | 2B     | Input     | Gate 2 input B   |
+| 6   | 2Y     | Output    | Gate 2 output    |
+| 7   | GND    | —         | Ground           |
+| 8   | 3Y     | Output    | Gate 3 output    |
+| 9   | 3A     | Input     | Gate 3 input A   |
+| 10  | 3B     | Input     | Gate 3 input B   |
+| 11  | 4Y     | Output    | Gate 4 output    |
+| 12  | 4A     | Input     | Gate 4 input A   |
+| 13  | 4B     | Input     | Gate 4 input B   |
+| 14  | Vcc    | —         | +5V Power Supply |
+
+
+Description:
+
+- Has 4 XOR gates.
+
+- Output is HIGH when only one input is HIGH.
+
+- Commonly used in adders and parity checkers.
+ # 7.  IC 74266 – Quad 2-Input XNOR Gate
+ ![image](https://github.com/user-attachments/assets/42dd988e-525d-4f70-b67b-4b3a37b793e2)
+
+ | Pin | Label | Direction | Function              |
+|-----|--------|-----------|-----------------------|
+| 1   | 1A     | Input     | Gate 1 input A        |
+| 2   | 1B     | Input     | Gate 1 input B        |
+| 3   | 1Y     | Output    | Gate 1 output         |
+| 4   | 2A     | Input     | Gate 2 input A        |
+| 5   | 2B     | Input     | Gate 2 input B        |
+| 6   | 2Y     | Output    | Gate 2 output         |
+| 7   | GND    | —         | Ground                |
+| 8   | 3Y     | Output    | Gate 3 output         |
+| 9   | 3A     | Input     | Gate 3 input A        |
+| 10  | 3B     | Input     | Gate 3 input B        |
+| 11  | 4Y     | Output    | Gate 4 output         |
+| 12  | 4A     | Input     | Gate 4 input A        |
+| 13  | 4B     | Input     | Gate 4 input B        |
+| 14  | Vcc    | —         | +5V Power Supply      |
+
+  Description:
+
+- Implements 4 XNOR gates with open-collector outputs (requires pull-up resistor).
+
+- Output is HIGH when inputs are the same.
+
+- Special use in equality checking circuits.
+
 
 
 
