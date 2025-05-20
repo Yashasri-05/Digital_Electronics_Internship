@@ -554,6 +554,17 @@ Description:
 - Output is HIGH when inputs are the same.
 
 - Special use in equality checking circuits.
+  # Applications of IC's
+| Logic Gate | IC Number | Applications                                                              | Number of Gates | Pin Count |
+|------------|-----------|---------------------------------------------------------------------|-----------------|-----------|
+| NOT        | 7404      | Signal inversion, pulse shaping, oscillator circuits                      | 6               | 14        |
+| AND        | 7408      | Digital control systems, enable circuits, logic comparisons               | 4               | 14        |
+| NAND       | 7400      | Alarm systems, combinational logic design, universal gate implementation  | 4               | 14        |
+| OR         | 7432      | Data selection, address decoding, control logic                           | 4               | 14        |
+| NOR        | 7402      | Timing circuits, reset logic, universal gate applications                 | 4               | 14        |
+| XOR        | 7486      | Arithmetic circuits (adders), parity checkers, digital comparators        | 4               | 14        |
+| XNOR       | 74266     | Equality checkers, error detection, phase detectors                       | 4               | 14        |
+
 
 
 
