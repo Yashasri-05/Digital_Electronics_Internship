@@ -351,6 +351,8 @@ What is an Ic?
 # 1.IC 7408 – Quad 2-Input AND Gate
 ![image](https://github.com/user-attachments/assets/45aee511-1515-4439-b4e1-4f886250f4a1)
 
+https://www.tinkercad.com/things/6HdIkZViZFl-and-gate-ic-7408
+
 | Pin | Label | Direction | Function         |
 |-----|--------|-----------|------------------|
 | 1   | 1A     | Input     | Gate 1 input A   |
@@ -377,6 +379,9 @@ Description:
 - Power: Pin 14 (Vcc), Ground: Pin 7.
 # 2. IC 7432 – Quad 2-Input OR Gate
 ![image](https://github.com/user-attachments/assets/c7a91fb3-7d3a-4f40-b5b4-b2173fdfdd41)
+
+https://www.tinkercad.com/things/c17sYaTdDOo-or-gate-ic-7432
+
 | Pin | Label | Direction | Function         |
 |-----|--------|-----------|------------------|
 | 1   | 1A     | Input     | Gate 1 input A   |
@@ -404,6 +409,8 @@ Description:
 - Power supply on Pin 14, Ground on Pin 7.
 # 3. IC 7404 – Hex Inverter (NOT Gate)
 ![image](https://github.com/user-attachments/assets/3b30e215-e5e4-4324-8286-a39debbb4f89)
+
+https://www.tinkercad.com/things/4CX1sjaLXq8-not-gate-ic-7404
 | Pin | Label | Direction | Function           |
 |-----|--------|-----------|--------------------|
 | 1   | 1A     | Input     | Inverter 1 input   |
@@ -432,6 +439,8 @@ Description:
 - Vcc and GND are on Pins 14 and 7 respectively.
 # 4. IC 7400 – Quad 2-Input NAND Gate
 ![image](https://github.com/user-attachments/assets/abae2531-623d-43d1-adbc-73efa6e21c35)
+
+https://www.tinkercad.com/things/89AgKOYdJ2J-nand-gate-ic-7400
 | Pin | Label | Direction | Function         |
 |-----|--------|-----------|------------------|
 | 1   | 1A     | Input     | Gate 1 input A   |
@@ -459,6 +468,8 @@ Description:
 - Pin 14 is for power supply (Vcc = +5V), and Pin 7 is for Ground.
 # 5. IC 7402 – Quad 2-Input NOR Gate
 ![image](https://github.com/user-attachments/assets/0697c136-ee71-47d9-bb77-0bdf7f7594dd)
+
+https://www.tinkercad.com/things/3KaIfRwXhun-nor-gate-ic-7402
 | Pin | Label | Direction | Function         |
 |-----|--------|-----------|------------------|
 | 1   | 1A     | Input     | Gate 1 input A   |
@@ -487,6 +498,8 @@ Description:
 # 6. IC 7486 – Quad 2-Input XOR Gate
 ![image](https://github.com/user-attachments/assets/0108f188-5c14-4b4e-abda-4daf1efb4fc1)
 
+https://www.tinkercad.com/things/dVM7spCgh4L-xor-gate-ic-7486-
+
 | Pin | Label | Direction | Function         |
 |-----|--------|-----------|------------------|
 | 1   | 1A     | Input     | Gate 1 input A   |
@@ -514,6 +527,8 @@ Description:
 - Commonly used in adders and parity checkers.
  # 7.  IC 74266 – Quad 2-Input XNOR Gate
  ![image](https://github.com/user-attachments/assets/42dd988e-525d-4f70-b67b-4b3a37b793e2)
+
+ https://www.tinkercad.com/things/foLhOr8GhDX-xnor-gate
 
  | Pin | Label | Direction | Function              |
 |-----|--------|-----------|-----------------------|
