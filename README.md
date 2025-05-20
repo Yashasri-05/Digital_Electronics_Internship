@@ -440,7 +440,7 @@ Description:
 # 4. IC 7400 – Quad 2-Input NAND Gate
 ![image](https://github.com/user-attachments/assets/abae2531-623d-43d1-adbc-73efa6e21c35)
 
-https://www.tinkercad.com/things/89AgKOYdJ2J-nand-gate-ic-7400
+https://www.tinkercad.com/things/89AgKOYdJ2J-nand-gate-ic-7400?sharecode=MiHdoIIgdflKbZkyLxwCSuTpqvsbOy-KfGam92ubvu8
 | Pin | Label | Direction | Function         |
 |-----|--------|-----------|------------------|
 | 1   | 1A     | Input     | Gate 1 input A   |
