@@ -333,9 +333,8 @@ The XNOR (Exclusive NOR) gate gives an output of 1 only when the inputs are the 
 | 1 | 0 |       0       |
 | 1 | 1 |       1       |
 -----------------------------------------------------
-# Integrated Circuits-Ic's
 # Integrated Circuits(Ic's)
-What is an Ic?
+# What is an Ic?
 - IC (Integrated Circuit) – A microelectronic device that integrates multiple electronic components into a single chip to perform a specific function or set of functions.
 # Types of Logic Gates and Their ICs
 ### Logic Gate IC Table
@@ -350,6 +349,17 @@ What is an Ic?
 | XOR        | 7486      | Quad 2-Input XOR Gate        | 4               | 14        |
 | XNOR       | 74266     | Quad 2-Input XNOR Gate       | 4               | 14        |
 ---------------------------------------------
+  # Applications of IC's
+| Logic Gate | IC Number | Applications                                                              | Number of Gates | Pin Count |
+|------------|-----------|---------------------------------------------------------------------|-----------------|-----------|
+| NOT        | 7404      | Signal inversion, pulse shaping, oscillator circuits                      | 6               | 14        |
+| AND        | 7408      | Digital control systems, enable circuits, logic comparisons               | 4               | 14        |
+| NAND       | 7400      | Alarm systems, combinational logic design, universal gate implementation  | 4               | 14        |
+| OR         | 7432      | Data selection, address decoding, control logic                           | 4               | 14        |
+| NOR        | 7402      | Timing circuits, reset logic, universal gate applications                 | 4               | 14        |
+| XOR        | 7486      | Arithmetic circuits (adders), parity checkers, digital comparators        | 4               | 14        |
+| XNOR       | 74266     | Equality checkers, error detection, phase detectors                       | 4               | 14        |
+
 # 1.IC 7408 – Quad 2-Input AND Gate
 ![image](https://github.com/user-attachments/assets/45aee511-1515-4439-b4e1-4f886250f4a1)
 
@@ -605,32 +615,24 @@ Description:
 
 - Special use in equality checking circuits.
 ----------------------------------------------------------------------
-  # Applications of IC's
-| Logic Gate | IC Number | Applications                                                              | Number of Gates | Pin Count |
-|------------|-----------|---------------------------------------------------------------------|-----------------|-----------|
-| NOT        | 7404      | Signal inversion, pulse shaping, oscillator circuits                      | 6               | 14        |
-| AND        | 7408      | Digital control systems, enable circuits, logic comparisons               | 4               | 14        |
-| NAND       | 7400      | Alarm systems, combinational logic design, universal gate implementation  | 4               | 14        |
-| OR         | 7432      | Data selection, address decoding, control logic                           | 4               | 14        |
-| NOR        | 7402      | Timing circuits, reset logic, universal gate applications                 | 4               | 14        |
-| XOR        | 7486      | Arithmetic circuits (adders), parity checkers, digital comparators        | 4               | 14        |
-| XNOR       | 74266     | Equality checkers, error detection, phase detectors                       | 4               | 14        |
---------------------------------------------------
+
+
 ## IMPLEMENTATION OF LOGIC GATES
-# - AND USING NAND
+#  IMPLEMENTATION OF AND USING NAND 7400
 ![image](https://github.com/user-attachments/assets/76c74325-c8e8-4086-9266-ba9420259a91)
 
  Tinkercad Project Link
 
-👉 [View NAND Gate Project on Tinkercad](https://www.tinkercad.com/things/5QLXe5UlPai-and-using-nand)
+👉 [View Implementation of AND GATE USING NAND Gate 7400  Project on Tinkercad](https://www.tinkercad.com/things/5QLXe5UlPai-and-using-nand)
 -----------------------------------
-# - OR USING NAND 
+# IMPLEMENTATION OF OR GATE  USING NAND GATE
 ![image](https://github.com/user-attachments/assets/c2fb1071-4d4c-4a2b-b576-87222acaec43)
 
-Tinkercad Project Link: 
-👉 [View Circuit on Tinkercad](https://www.tinkercad.com/things/i38juEEBKzw-or-using-nand)
+Tinkercad Project Link:
+
+👉 [View Implementation of OR GATE USING NAND GATE 7400 Circuit on Tinkercad](https://www.tinkercad.com/things/i38juEEBKzw-or-using-nand)
 -------------------------------------
-# - NOT USING NAND 
+# IMPLEMENTATION OF NOT GATE USING NAND GATE
 
 
 
