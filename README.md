@@ -351,7 +351,13 @@ What is an Ic?
 # 1.IC 7408 – Quad 2-Input AND Gate
 ![image](https://github.com/user-attachments/assets/45aee511-1515-4439-b4e1-4f886250f4a1)
 
-https://www.tinkercad.com/things/6HdIkZViZFl-and-gate-ic-7408
+![AND Gate Ic 7408](https://github.com/user-attachments/assets/327b1aa3-872c-4d45-a972-61b23d8c620a)
+## Tinkercad Circuit: AND Gate using IC 7408
+
+
+
+👉 [Open in Tinkercad](https://www.tinkercad.com/things/6HdIkZViZFl-and-gate-ic-7408)
+
 
 | Pin | Label | Direction | Function         |
 |-----|--------|-----------|------------------|
@@ -377,10 +383,19 @@ Description:
 - Each AND gate outputs HIGH only if both inputs are HIGH.
 
 - Power: Pin 14 (Vcc), Ground: Pin 7.
+----------------------------------------------
 # 2. IC 7432 – Quad 2-Input OR Gate
 ![image](https://github.com/user-attachments/assets/c7a91fb3-7d3a-4f40-b5b4-b2173fdfdd41)
 
-https://www.tinkercad.com/things/c17sYaTdDOo-or-gate-ic-7432
+![image](https://github.com/user-attachments/assets/c49db2f6-11a5-4fb6-ac3b-19ec3d49f4d9)
+
+
+## Tinkercad Circuit: OR Gate using IC 7432
+
+
+
+👉 [Open OR Gate Circuit in Tinkercad](https://www.tinkercad.com/things/c17sYaTdDOo-or-gate-ic-7432)
+
 
 | Pin | Label | Direction | Function         |
 |-----|--------|-----------|------------------|
@@ -407,10 +422,16 @@ Description:
 - Each gate gives a HIGH output when at least one input is HIGH.
 
 - Power supply on Pin 14, Ground on Pin 7.
+---------------------------------------------------------------------------
 # 3. IC 7404 – Hex Inverter (NOT Gate)
 ![image](https://github.com/user-attachments/assets/3b30e215-e5e4-4324-8286-a39debbb4f89)
 
-https://www.tinkercad.com/things/4CX1sjaLXq8-not-gate-ic-7404
+![image](https://github.com/user-attachments/assets/ad354f0c-37a8-478f-8bf6-49432124e43c)
+
+### 🔸 NOT Gate using IC 7404  
+[Open NOT GATE in Tinkercad](https://www.tinkercad.com/things/4CX1sjaLXq8-not-gate-ic-7404a)
+
+
 | Pin | Label | Direction | Function           |
 |-----|--------|-----------|--------------------|
 | 1   | 1A     | Input     | Inverter 1 input   |
@@ -437,10 +458,17 @@ Description:
 - Used to invert a digital signal.
 
 - Vcc and GND are on Pins 14 and 7 respectively.
+----------------------------------------------------------------------
 # 4. IC 7400 – Quad 2-Input NAND Gate
 ![image](https://github.com/user-attachments/assets/abae2531-623d-43d1-adbc-73efa6e21c35)
 
-https://www.tinkercad.com/things/89AgKOYdJ2J-nand-gate-ic-7400?sharecode=MiHdoIIgdflKbZkyLxwCSuTpqvsbOy-KfGam92ubvu8
+![image](https://github.com/user-attachments/assets/d7df65a4-5d8d-4ae6-b19f-0ba35acb5fc6)
+
+### 🔹 NAND Gate using IC 7400  
+[Open in Tinkercad](https://www.tinkercad.com/things/89AgKOYdJ2J-nand-gate-ic-7400)
+
+
+
 | Pin | Label | Direction | Function         |
 |-----|--------|-----------|------------------|
 | 1   | 1A     | Input     | Gate 1 input A   |
@@ -466,10 +494,17 @@ Description:
 - Pins 1-6 & 8-13 are logic gate inputs and outputs.
 
 - Pin 14 is for power supply (Vcc = +5V), and Pin 7 is for Ground.
+------------------------------------------------------------------------------
+  
 # 5. IC 7402 – Quad 2-Input NOR Gate
 ![image](https://github.com/user-attachments/assets/0697c136-ee71-47d9-bb77-0bdf7f7594dd)
 
-https://www.tinkercad.com/things/3KaIfRwXhun-nor-gate-ic-7402
+![image](https://github.com/user-attachments/assets/8287fabe-4a9e-4269-a06b-3a30a64b00c1)
+
+### 🔹 NOR Gate using IC 7402  
+[Open in Tinkercad](https://www.tinkercad.com/things/3KaIfRwXhun-nor-gate-ic-7402)
+
+
 | Pin | Label | Direction | Function         |
 |-----|--------|-----------|------------------|
 | 1   | 1A     | Input     | Gate 1 input A   |
@@ -495,10 +530,16 @@ Description:
 - Each gate takes 2 inputs and gives 1 output based on NOR logic.
 
 - Pin 14 supplies power; Pin 7 connects to ground.
+--------------------------------------------------------------------------------
 # 6. IC 7486 – Quad 2-Input XOR Gate
 ![image](https://github.com/user-attachments/assets/0108f188-5c14-4b4e-abda-4daf1efb4fc1)
 
-https://www.tinkercad.com/things/dVM7spCgh4L-xor-gate-ic-7486-
+![image](https://github.com/user-attachments/assets/0a5edc51-00c9-44c4-a278-4c836cc5da5c)
+### 🔹 XOR Gate using IC 7486  
+[Open in Tinkercad](https://www.tinkercad.com/things/dVM7spCgh4L-xor-gate-ic-7486)
+
+
+
 
 | Pin | Label | Direction | Function         |
 |-----|--------|-----------|------------------|
@@ -525,10 +566,16 @@ Description:
 - Output is HIGH when only one input is HIGH.
 
 - Commonly used in adders and parity checkers.
+--------------------------------------------------------
  # 7.  IC 74266 – Quad 2-Input XNOR Gate
  ![image](https://github.com/user-attachments/assets/42dd988e-525d-4f70-b67b-4b3a37b793e2)
 
- https://www.tinkercad.com/things/foLhOr8GhDX-xnor-gate
+ ![image](https://github.com/user-attachments/assets/8c7d393b-530e-425e-a2ab-fea1d190638a)
+
+ ### 🔹 XNOR Gate  
+[Open in Tinkercad](https://www.tinkercad.com/things/foLhOr8GhDX-xnor-gate)
+
+
 
  | Pin | Label | Direction | Function              |
 |-----|--------|-----------|-----------------------|
@@ -554,6 +601,7 @@ Description:
 - Output is HIGH when inputs are the same.
 
 - Special use in equality checking circuits.
+----------------------------------------------------------------------
   # Applications of IC's
 | Logic Gate | IC Number | Applications                                                              | Number of Gates | Pin Count |
 |------------|-----------|---------------------------------------------------------------------|-----------------|-----------|
