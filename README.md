@@ -510,7 +510,8 @@ Description:
 ------------------------------------------------------------------------------
   
 # 5. IC 7402 – Quad 2-Input NOR Gate
-![image](https://github.com/user-attachments/assets/0697c136-ee71-47d9-bb77-0bdf7f7594dd)
+![image](https://github.com/user-attachments/assets/93787e33-8b3b-4980-9982-b575e4a2af11)
+
 
 ![image](https://github.com/user-attachments/assets/8287fabe-4a9e-4269-a06b-3a30a64b00c1)
 
@@ -623,16 +624,25 @@ Description:
 
  Tinkercad Project Link
 
-👉 [View Implementation of AND GATE USING NAND Gate 7400  Project on Tinkercad](https://www.tinkercad.com/things/5QLXe5UlPai-and-using-nand)
+👉 [View  AND GATE USING NAND Gate 7400  Project on Tinkercad](https://www.tinkercad.com/things/5QLXe5UlPai-and-using-nand)
 -----------------------------------
 # IMPLEMENTATION OF OR GATE  USING NAND GATE
 ![image](https://github.com/user-attachments/assets/c2fb1071-4d4c-4a2b-b576-87222acaec43)
 
 Tinkercad Project Link:
 
-👉 [View Implementation of OR GATE USING NAND GATE 7400 Circuit on Tinkercad](https://www.tinkercad.com/things/i38juEEBKzw-or-using-nand)
+👉 [View  OR GATE USING NAND GATE 7400 Circuit on Tinkercad](https://www.tinkercad.com/things/i38juEEBKzw-or-using-nand)
 -------------------------------------
 # IMPLEMENTATION OF NOT GATE USING NAND GATE
+
+![image](https://github.com/user-attachments/assets/3a8e80c3-e1bc-4999-a140-1a3f589ba834)
+
+ Tinkercad Project Link :
+  
+👉 [View NOT GATE USING NAND 7400](https://www.tinkercad.com/things/a9MY7WZkC7Q-not-gate-using-nand)
+
+
+
 
 
 
