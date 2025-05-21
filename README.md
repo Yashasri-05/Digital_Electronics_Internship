@@ -625,21 +625,27 @@ Description:
  Tinkercad Project Link
 
 👉 [View  AND GATE USING NAND Gate 7400  Project on Tinkercad](https://www.tinkercad.com/things/5QLXe5UlPai-and-using-nand)
+
 -----------------------------------
-# IMPLEMENTATION OF OR GATE  USING NAND GATE
+# IMPLEMENTATION OF OR GATE  USING NAND GATE 7400
 ![image](https://github.com/user-attachments/assets/c2fb1071-4d4c-4a2b-b576-87222acaec43)
 
 Tinkercad Project Link:
 
 👉 [View  OR GATE USING NAND GATE 7400 Circuit on Tinkercad](https://www.tinkercad.com/things/i38juEEBKzw-or-using-nand)
+
 -------------------------------------
-# IMPLEMENTATION OF NOT GATE USING NAND GATE
+# IMPLEMENTATION OF NOT GATE USING NAND GATE 7400
 
 ![image](https://github.com/user-attachments/assets/3a8e80c3-e1bc-4999-a140-1a3f589ba834)
 
  Tinkercad Project Link :
   
 👉 [View NOT GATE USING NAND 7400](https://www.tinkercad.com/things/a9MY7WZkC7Q-not-gate-using-nand)
+
+-----------------------------------------------
+# IMPLEMENTATION OF AND GATE USING NOR GATE 7402
+
 
 
 
