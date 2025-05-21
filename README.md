@@ -429,7 +429,7 @@ Description:
 ![image](https://github.com/user-attachments/assets/ad354f0c-37a8-478f-8bf6-49432124e43c)
 
 ### 🔸 NOT Gate using IC 7404  
-[Open NOT GATE in Tinkercad](https://www.tinkercad.com/things/4CX1sjaLXq8-not-gate-ic-7404a)
+👉 [Open NOT GATE in Tinkercad](https://www.tinkercad.com/things/4CX1sjaLXq8-not-gate-ic-7404a)
 
 
 | Pin | Label | Direction | Function           |
@@ -465,7 +465,7 @@ Description:
 ![image](https://github.com/user-attachments/assets/d7df65a4-5d8d-4ae6-b19f-0ba35acb5fc6)
 
 ### 🔹 NAND Gate using IC 7400  
-[Open in Tinkercad](https://www.tinkercad.com/things/89AgKOYdJ2J-nand-gate-ic-7400)
+👉 [Open in Tinkercad](https://www.tinkercad.com/things/89AgKOYdJ2J-nand-gate-ic-7400)
 
 
 
@@ -502,7 +502,7 @@ Description:
 ![image](https://github.com/user-attachments/assets/8287fabe-4a9e-4269-a06b-3a30a64b00c1)
 
 ### 🔹 NOR Gate using IC 7402  
-[Open in Tinkercad](https://www.tinkercad.com/things/3KaIfRwXhun-nor-gate-ic-7402)
+👉 [Open in Tinkercad](https://www.tinkercad.com/things/3KaIfRwXhun-nor-gate-ic-7402)
 
 
 | Pin | Label | Direction | Function         |
@@ -536,7 +536,7 @@ Description:
 
 ![image](https://github.com/user-attachments/assets/0a5edc51-00c9-44c4-a278-4c836cc5da5c)
 ### 🔹 XOR Gate using IC 7486  
-[Open in Tinkercad](https://www.tinkercad.com/things/dVM7spCgh4L-xor-gate-ic-7486)
+👉 [Open in Tinkercad](https://www.tinkercad.com/things/dVM7spCgh4L-xor-gate-ic-7486)
 
 
 
@@ -573,7 +573,7 @@ Description:
  ![image](https://github.com/user-attachments/assets/8c7d393b-530e-425e-a2ab-fea1d190638a)
 
  ### 🔹 XNOR Gate  
-[Open in Tinkercad](https://www.tinkercad.com/things/foLhOr8GhDX-xnor-gate)
+👉 [Open in Tinkercad](https://www.tinkercad.com/things/foLhOr8GhDX-xnor-gate)
 
 
 
