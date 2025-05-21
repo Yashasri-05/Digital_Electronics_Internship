@@ -462,7 +462,8 @@ Description:
 # 4. IC 7400 – Quad 2-Input NAND Gate
 ![image](https://github.com/user-attachments/assets/abae2531-623d-43d1-adbc-73efa6e21c35)
 
-![image](https://github.com/user-attachments/assets/c0ad2191-1ab7-4acd-a64b-569958cf8e2b)
+![NAND Gate Ic 7400](https://github.com/user-attachments/assets/d4e9a753-d9a4-4986-9710-057150d412da)
+
 
 ### 🔹 NAND Gate using IC 7400  
 👉 [Open in Tinkercad](https://www.tinkercad.com/things/89AgKOYdJ2J-nand-gate-ic-7400)
