@@ -620,17 +620,18 @@ Description:
 # - AND USING NAND
 ![image](https://github.com/user-attachments/assets/76c74325-c8e8-4086-9266-ba9420259a91)
 
-## Tinkercad Project Link
+ Tinkercad Project Link
 
 👉 [View NAND Gate Project on Tinkercad](https://www.tinkercad.com/things/5QLXe5UlPai-and-using-nand)
 -----------------------------------
 # - OR USING NAND 
 ![image](https://github.com/user-attachments/assets/c2fb1071-4d4c-4a2b-b576-87222acaec43)
 
-# Tinkercad Project Link: 
+Tinkercad Project Link: 
 👉 [View Circuit on Tinkercad](https://www.tinkercad.com/things/i38juEEBKzw-or-using-nand)
 -------------------------------------
 # - NOT USING NAND 
+
 
 
 
