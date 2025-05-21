@@ -8,6 +8,8 @@
 -  [Conversion between Number System](#Conversion-between-Number-System)
 -  [Basic Logic Gates](#Basic-Logic-Gates)
 -  [Integrated Circuits-Ic's](#Integrated-Circuits-Ic's)
+-  [Implementation of Logic Gates](#Implementation-of-Logic-Gates)
+
   
 # What is Digital Electronics
 Digital electronics is a branch of electronics that deals with systems that use discrete (distinct) signal levels, typically represented by binary numbers — 0 and 1. Unlike analog electronics, where signals can vary smoothly across a range of values, digital electronics processes information using only two states (usually referred to as LOW and HIGH, or OFF and ON).
@@ -613,6 +615,26 @@ Description:
 | NOR        | 7402      | Timing circuits, reset logic, universal gate applications                 | 4               | 14        |
 | XOR        | 7486      | Arithmetic circuits (adders), parity checkers, digital comparators        | 4               | 14        |
 | XNOR       | 74266     | Equality checkers, error detection, phase detectors                       | 4               | 14        |
+--------------------------------------------------
+## IMPLEMENTATION OF LOGIC GATES
+# - AND USING NAND
+![image](https://github.com/user-attachments/assets/76c74325-c8e8-4086-9266-ba9420259a91)
+
+## Tinkercad Project Link
+
+👉 [View NAND Gate Project on Tinkercad](https://www.tinkercad.com/things/5QLXe5UlPai-and-using-nand)
+-----------------------------------
+# - OR USING NAND 
+![image](https://github.com/user-attachments/assets/c2fb1071-4d4c-4a2b-b576-87222acaec43)
+
+# Tinkercad Project Link: 
+👉 [View Circuit on Tinkercad](https://www.tinkercad.com/things/i38juEEBKzw-or-using-nand)
+-------------------------------------
+# - NOT USING NAND 
+
+
+
+
 
 
 
