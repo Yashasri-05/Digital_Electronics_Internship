@@ -626,7 +626,8 @@ Description:
 
 ## IMPLEMENTATION OF LOGIC GATES
 
-#  IMPLEMENTATION OF AND USING NAND 7400
+ IMPLEMENTATION OF AND GATE USING NAND GATE7400
+ 
 ![image](https://github.com/user-attachments/assets/dc20e6cf-d5bc-4c5b-a14b-463b782abd9f)
 
  Tinkercad Project Link
@@ -634,7 +635,7 @@ Description:
 👉 [View  AND GATE USING NAND Gate 7400  Project on Tinkercad](https://www.tinkercad.com/things/5QLXe5UlPai-and-using-nand)
 
 -----------------------------------
-# IMPLEMENTATION OF OR GATE  USING NAND GATE 7400
+IMPLEMENTATION OF OR GATE  USING NAND GATE 7400
 
 ![image](https://github.com/user-attachments/assets/e912b171-a7f1-4739-9aab-3156317bcd2e)
 
@@ -644,7 +645,7 @@ Tinkercad Project Link:
 👉 [View  OR GATE USING NAND GATE 7400 Circuit on Tinkercad](https://www.tinkercad.com/things/i38juEEBKzw-or-using-nand)
 
 -------------------------------------
-# IMPLEMENTATION OF NOT GATE USING NAND GATE 7400
+ IMPLEMENTATION OF NOT GATE USING NAND GATE 7400
 
 ![image](https://github.com/user-attachments/assets/e581f8f1-bded-499c-a4bd-e2964cd17cc0)
 
@@ -654,7 +655,22 @@ Tinkercad Project Link:
 👉 [View NOT GATE USING NAND 7400](https://www.tinkercad.com/things/a9MY7WZkC7Q-not-gate-using-nand)
 
 -----------------------------------------------
-# IMPLEMENTATION OF AND GATE USING NOR GATE 7402
+ IMPLEMENTATION OF AND GATE USING NOR GATE 7402
+ 
+ -------------------------------------
+ 
+IMPLEMENTATION OF OR GATE USING NOR GATE 7402
+
+--------------------------------------------
+IMPLEMENTATION OF NOT GATE USING NOR GATE 7402
+
+![image](https://github.com/user-attachments/assets/8f5cb303-badd-4985-b53f-52269f24e7ee)
+
+Tinkercad Project Link:
+
+
+👉 [View NOT GATE USING NOR GATE 7402](https://www.tinkercad.com/things/gHPBkiHX2zU-not-gate-using-nor-gate-7402)
+
 
 
 
