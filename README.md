@@ -625,8 +625,9 @@ Description:
 
 
 ## IMPLEMENTATION OF LOGIC GATES
+
 #  IMPLEMENTATION OF AND USING NAND 7400
-![image](https://github.com/user-attachments/assets/76c74325-c8e8-4086-9266-ba9420259a91)
+![image](https://github.com/user-attachments/assets/dc20e6cf-d5bc-4c5b-a14b-463b782abd9f)
 
  Tinkercad Project Link
 
@@ -634,7 +635,9 @@ Description:
 
 -----------------------------------
 # IMPLEMENTATION OF OR GATE  USING NAND GATE 7400
-![image](https://github.com/user-attachments/assets/c2fb1071-4d4c-4a2b-b576-87222acaec43)
+
+![image](https://github.com/user-attachments/assets/e912b171-a7f1-4739-9aab-3156317bcd2e)
+
 
 Tinkercad Project Link:
 
@@ -643,7 +646,8 @@ Tinkercad Project Link:
 -------------------------------------
 # IMPLEMENTATION OF NOT GATE USING NAND GATE 7400
 
-![image](https://github.com/user-attachments/assets/3a8e80c3-e1bc-4999-a140-1a3f589ba834)
+![image](https://github.com/user-attachments/assets/e581f8f1-bded-499c-a4bd-e2964cd17cc0)
+
 
  Tinkercad Project Link :
   
