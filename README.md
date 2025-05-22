@@ -365,7 +365,7 @@ The XNOR (Exclusive NOR) gate gives an output of 1 only when the inputs are the 
 
 ![image](https://github.com/user-attachments/assets/5efd3b5d-e367-4872-a328-f8b7948c90db)
 
-## Tinkercad Circuit: AND Gate using IC 7408
+### 🔸 AND Gate using IC 7408
 
 
 
@@ -404,7 +404,7 @@ Description:
 
 
 
-## Tinkercad Circuit: OR Gate using IC 7432
+### 🔸 OR Gate using IC 7432
 
 
 
@@ -626,7 +626,7 @@ Description:
 
 ## IMPLEMENTATION OF LOGIC GATES
 
- IMPLEMENTATION OF AND GATE USING NAND GATE7400
+ IMPLEMENTATION OF AND GATE USING NAND GATE 7400
  
 ![image](https://github.com/user-attachments/assets/dc20e6cf-d5bc-4c5b-a14b-463b782abd9f)
 
