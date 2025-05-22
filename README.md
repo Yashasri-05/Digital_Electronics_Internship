@@ -363,7 +363,8 @@ The XNOR (Exclusive NOR) gate gives an output of 1 only when the inputs are the 
 # 1.IC 7408 – Quad 2-Input AND Gate
 ![image](https://github.com/user-attachments/assets/45aee511-1515-4439-b4e1-4f886250f4a1)
 
-![AND Gate Ic 7408](https://github.com/user-attachments/assets/327b1aa3-872c-4d45-a972-61b23d8c620a)
+![image](https://github.com/user-attachments/assets/5efd3b5d-e367-4872-a328-f8b7948c90db)
+
 ## Tinkercad Circuit: AND Gate using IC 7408
 
 
@@ -399,7 +400,8 @@ Description:
 # 2. IC 7432 – Quad 2-Input OR Gate
 ![image](https://github.com/user-attachments/assets/c7a91fb3-7d3a-4f40-b5b4-b2173fdfdd41)
 
-![image](https://github.com/user-attachments/assets/c49db2f6-11a5-4fb6-ac3b-19ec3d49f4d9)
+![image](https://github.com/user-attachments/assets/0b529e47-8422-421c-b7f6-0f99d7b36bc6)
+
 
 
 ## Tinkercad Circuit: OR Gate using IC 7432
@@ -438,7 +440,8 @@ Description:
 # 3. IC 7404 – Hex Inverter (NOT Gate)
 ![image](https://github.com/user-attachments/assets/3b30e215-e5e4-4324-8286-a39debbb4f89)
 
-![image](https://github.com/user-attachments/assets/ad354f0c-37a8-478f-8bf6-49432124e43c)
+![image](https://github.com/user-attachments/assets/2332a6a8-8492-493d-836d-f3b40a570025)
+
 
 ### 🔸 NOT Gate using IC 7404  
 👉 [Open NOT GATE in Tinkercad](https://www.tinkercad.com/things/4CX1sjaLXq8-not-gate-ic-7404a)
@@ -474,7 +477,8 @@ Description:
 # 4. IC 7400 – Quad 2-Input NAND Gate
 ![image](https://github.com/user-attachments/assets/abae2531-623d-43d1-adbc-73efa6e21c35)
 
-![NAND Gate Ic 7400](https://github.com/user-attachments/assets/d4e9a753-d9a4-4986-9710-057150d412da)
+![image](https://github.com/user-attachments/assets/9cc191db-7759-436f-b26c-52c495a567c1)
+
 
 
 ### 🔹 NAND Gate using IC 7400  
@@ -513,7 +517,8 @@ Description:
 ![image](https://github.com/user-attachments/assets/93787e33-8b3b-4980-9982-b575e4a2af11)
 
 
-![image](https://github.com/user-attachments/assets/8287fabe-4a9e-4269-a06b-3a30a64b00c1)
+![image](https://github.com/user-attachments/assets/5a9d3247-d4db-41bd-b27c-09bd360e1fa4)
+
 
 ### 🔹 NOR Gate using IC 7402  
 👉 [Open in Tinkercad](https://www.tinkercad.com/things/3KaIfRwXhun-nor-gate-ic-7402)
@@ -548,7 +553,8 @@ Description:
 # 6. IC 7486 – Quad 2-Input XOR Gate
 ![image](https://github.com/user-attachments/assets/0108f188-5c14-4b4e-abda-4daf1efb4fc1)
 
-![image](https://github.com/user-attachments/assets/0a5edc51-00c9-44c4-a278-4c836cc5da5c)
+![image](https://github.com/user-attachments/assets/0ed28f26-279e-47d3-b9fe-3ca86e3d8c0a)
+
 ### 🔹 XOR Gate using IC 7486  
 👉 [Open in Tinkercad](https://www.tinkercad.com/things/dVM7spCgh4L-xor-gate-ic-7486)
 
@@ -584,7 +590,7 @@ Description:
  # 7.  IC 74266 – Quad 2-Input XNOR Gate
  ![image](https://github.com/user-attachments/assets/42dd988e-525d-4f70-b67b-4b3a37b793e2)
 
- ![image](https://github.com/user-attachments/assets/8c7d393b-530e-425e-a2ab-fea1d190638a)
+ ![image](https://github.com/user-attachments/assets/0cb6999c-f562-48aa-a446-b5be1b561c78)
 
  ### 🔹 XNOR Gate  
 👉 [Open in Tinkercad](https://www.tinkercad.com/things/foLhOr8GhDX-xnor-gate)
