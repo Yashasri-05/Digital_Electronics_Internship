@@ -1,4 +1,4 @@
-#                                                                                       DIGITAL ELECTRONICS
+![image](https://github.com/user-attachments/assets/afebf4e1-972c-4425-9f55-3d1ee88de4d6)#                                                                                       DIGITAL ELECTRONICS
 # Table of Contents
 
 -  [What is Digital Electronics](#What-is-Digital-Electronics) 
@@ -656,6 +656,14 @@ Tinkercad Project Link:
 
 -----------------------------------------------
  IMPLEMENTATION OF AND GATE USING NOR GATE 7402
+
+ ![image](https://github.com/user-attachments/assets/4b3c4976-49a0-4993-a991-2e9f278dc2bb)
+
+
+Tinkercad Project Link:
+
+👉 [View AND GATE USING NOR 7402](https://www.tinkercad.com/things/3OCH7IttIla-and-gate-using-nor-gate-7402)
+
  
  -------------------------------------
  
