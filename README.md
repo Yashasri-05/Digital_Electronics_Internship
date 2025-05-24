@@ -667,13 +667,18 @@ Tinkercad Project Link:
  
 IMPLEMENTATION OF OR GATE USING NOR GATE 7402
 
+![image](https://github.com/user-attachments/assets/6b37dcab-1ac6-4ed7-a929-f16a2ba25b63)
+
+ Tinkercad Project Link:
+ 
+👉[View OR GATE USING NOR 7402](https://www.tinkercad.com/things/hlNbfl7z4OF-or-gate-using-nor-7402)
+
 --------------------------------------------
 IMPLEMENTATION OF NOT GATE USING NOR GATE 7402
 
 ![image](https://github.com/user-attachments/assets/8f5cb303-badd-4985-b53f-52269f24e7ee)
 
 Tinkercad Project Link:
-
 
 👉 [View NOT GATE USING NOR GATE 7402](https://www.tinkercad.com/things/gHPBkiHX2zU-not-gate-using-nor-gate-7402)
 
