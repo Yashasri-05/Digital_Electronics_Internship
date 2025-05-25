@@ -9,6 +9,7 @@
 -  [Basic Logic Gates](#Basic-Logic-Gates)
 -  [Integrated Circuits-Ic's](#Integrated-Circuits-Ic's)
 -  [Implementation of Logic Gates](#Implementation-of-Logic-Gates)
+-  [Implementation of Half Adder](#Implementation-of-Half-Adder)
 
   
 # What is Digital Electronics
@@ -681,6 +682,42 @@ IMPLEMENTATION OF NOT GATE USING NOR GATE 7402
 Tinkercad Project Link:
 
 👉 [View NOT GATE USING NOR GATE 7402](https://www.tinkercad.com/things/gHPBkiHX2zU-not-gate-using-nor-gate-7402)
+
+------------------------------------------------------------------------
+# Implementation of Half Adder
+- Block Diagram
+  
+  ![image](https://github.com/user-attachments/assets/6a7d9236-cb01-46f3-b07e-b88bf0b4440b)
+
+  ![image](https://github.com/user-attachments/assets/74004944-d3af-40c7-bf36-479b88b12770)
+
+  ### Half Adder using 7400 NAND IC — Pin-to-Pin Connection Table
+
+| From Pin         | To Pin              | Purpose                               |
+|------------------|---------------------|----------------------------------------|
+| Pin 1            | Input A (Switch)    | First input to NAND1                  |
+| Pin 2            | Input B (Switch)    | Second input to NAND1                 |
+| Pin 3            | Pin 5               | Output of NAND1 → input of NAND2      |
+| Pin 3            | Pin 10              | Output of NAND1 → input of NAND3      |
+| Pin 4            | Input A (Switch)    | A again for NAND2                     |
+| Pin 6            | Pin 12              | Output of NAND2 → input of NAND4      |
+| Pin 9            | Input B (Switch)    | B again for NAND3                     |
+| Pin 8            | Pin 13              | Output of NAND3 → input of NAND4      |
+| Pin 11           | LED (Sum Output)    | Final XOR (SUM) output                |
+| Pin 3            | Pin 1 (2nd IC)       | NAND1 output → both inputs of NAND5   |
+| Pin 3            | Pin 2 (2nd IC)       | (for generating Carry)                |
+| Pin 3 (2nd IC)   | LED (Carry Output)  | Output of NAND5 = CARRY               |
+| Pin 14           | +5V                 | Power (VCC)                           |
+| Pin 7            | GND                 | Ground                                |
+
+Outputs:
+
+- Sum → Pin 11
+- Carry → Pin 3 of second 7400 IC (NAND5 output)
+
+- Tinkercad Project Link:
+ 👉 [Half-Adder using NAND Gates (7400)](https://www.tinkercad.com/things/iq6dWuUZlBf-half-adder-using-nand-gates-7400)
+
 
 
 
