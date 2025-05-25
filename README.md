@@ -714,8 +714,17 @@ Outputs:
 
 - Sum → Pin 11
 - Carry → Pin 3 of second 7400 IC (NAND5 output)
+  
+-  Half Adder Truth Table
 
-- Tinkercad Project Link:
+| A | B | Sum | Carry |
+|---|---|-----|-------|
+| 0 | 0 |  0  |   0   |
+| 0 | 1 |  1  |   0   |
+| 1 | 0 |  1  |   0   |
+| 1 | 1 |  0  |   1   |
+
+  - Tinkercad Project Link:
  👉 [Half-Adder using NAND Gates (7400)](https://www.tinkercad.com/things/iq6dWuUZlBf-half-adder-using-nand-gates-7400)
 
 
