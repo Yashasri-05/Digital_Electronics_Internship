@@ -725,6 +725,7 @@ Outputs:
 | 1 | 1 |  0  |   1   |
 
   - Tinkercad Project Link:
+
  👉 [Half-Adder using NAND Gates (7400)](https://www.tinkercad.com/things/iq6dWuUZlBf-half-adder-using-nand-gates-7400)
 
 
