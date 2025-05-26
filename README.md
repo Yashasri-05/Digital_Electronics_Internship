@@ -693,22 +693,23 @@ Tinkercad Project Link:
 
   ### Half Adder using 7400 NAND IC — Pin-to-Pin Connection Table
 
-| From Pin         | To Pin              | Purpose                               |
-|------------------|---------------------|----------------------------------------|
-| Pin 1            | Input A (Switch)    | First input to NAND1                  |
-| Pin 2            | Input B (Switch)    | Second input to NAND1                 |
-| Pin 3            | Pin 5               | Output of NAND1 → input of NAND2      |
-| Pin 3            | Pin 10              | Output of NAND1 → input of NAND3      |
-| Pin 4            | Input A (Switch)    | A again for NAND2                     |
-| Pin 6            | Pin 12              | Output of NAND2 → input of NAND4      |
-| Pin 9            | Input B (Switch)    | B again for NAND3                     |
-| Pin 8            | Pin 13              | Output of NAND3 → input of NAND4      |
-| Pin 11           | LED (Sum Output)    | Final XOR (SUM) output                |
-| Pin 3            | Pin 1 (2nd IC)       | NAND1 output → both inputs of NAND5   |
-| Pin 3            | Pin 2 (2nd IC)       | (for generating Carry)                |
-| Pin 3 (2nd IC)   | LED (Carry Output)  | Output of NAND5 = CARRY               |
-| Pin 14           | +5V                 | Power (VCC)                           |
-| Pin 7            | GND                 | Ground                                |
+| S.No | From Pin         | To Pin              | Comment                               |
+|------|------------------|---------------------|---------------------------------------|
+| 1    | Pin 1            | Input A (Switch)    | First input to NAND1                  |
+| 2    | Pin 2            | Input B (Switch)    | Second input to NAND1                 |
+| 3    | Pin 3            | Pin 5               | Output of NAND1 → input of NAND2      |
+| 4    | Pin 3            | Pin 10              | Output of NAND1 → input of NAND3      |
+| 5    | Pin 4            | Input A (Switch)    | A again for NAND2                     |
+| 6    | Pin 6            | Pin 12              | Output of NAND2 → input of NAND4      |
+| 7    | Pin 9            | Input B (Switch)    | B again for NAND3                     |
+| 8    | Pin 8            | Pin 13              | Output of NAND3 → input of NAND4      |
+| 9    | Pin 11           | LED (Sum Output)    | Final XOR (SUM) output                |
+| 10   | Pin 3            | Pin 1 (2nd IC)      | NAND1 output → both inputs of NAND5   |
+| 11   | Pin 3            | Pin 2 (2nd IC)      | For Generating Carry                  |
+| 12   | Pin 3 (2nd IC)   | LED (Carry Output)  | Output of NAND5 = CARRY               |
+| 13   | Pin 14           | +5V                 | Power (VCC)                           |
+| 14   | Pin 7            | GND                 | Ground                                |
+
 
 Outputs:
 
