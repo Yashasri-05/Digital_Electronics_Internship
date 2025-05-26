@@ -685,7 +685,6 @@ Tinkercad Project Link:
 
 ------------------------------------------------------------------------
 # Implementation of Half Adder
-- Block Diagram
   
   ![image](https://github.com/user-attachments/assets/6a7d9236-cb01-46f3-b07e-b88bf0b4440b)
 
