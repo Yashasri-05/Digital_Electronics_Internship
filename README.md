@@ -730,7 +730,7 @@ Tinkercad Project Link:
  👉 [Half-Adder using NAND Gates (7400)](https://www.tinkercad.com/things/iq6dWuUZlBf-half-adder-using-nand-gates-7400)
 
  ------------------------------------------------------------
- # Implmentation of Full Adder 
+ # Implementation of Full Adder 
 
  ![image](https://github.com/user-attachments/assets/1ce784e4-5e68-4da9-817b-25b7ebd2078f)
 
