@@ -710,7 +710,7 @@ Tinkercad Project Link:
 | 14   | Pin 7            | GND                 | Ground                                |
 
 
-Outputs:
+ 🔹Outputs:
 
 - Sum → Pin 11
 - Carry → Pin 3 of second 7400 IC (NAND5 output)
@@ -728,18 +728,62 @@ Outputs:
 
  👉 [Half-Adder using NAND Gates (7400)](https://www.tinkercad.com/things/iq6dWuUZlBf-half-adder-using-nand-gates-7400)
 
+ ------------------------------------------------------------
+ # Implmentation of Full Adder 
+
+ ![image](https://github.com/user-attachments/assets/1ce784e4-5e68-4da9-817b-25b7ebd2078f)
+
+ 
+ ![image](https://github.com/user-attachments/assets/9aac7e74-b5df-4d28-9e2f-a7afc26e8212)
 
 
+### Full Adder using 7400 NAND IC — Pin-to-Pin Connection Table
 
+| S.No | From Pin               | To Pin                   | Comment                                           |
+|------|------------------------|--------------------------|---------------------------------------------------|
+|      | **IC1 – First Half Adder (A, B)**                 |                                                   |                                                   
+| 1    | Pin 1 (IC1)            | Input A (Switch)         | First input to NAND1                              |
+| 2    | Pin 2 (IC1)            | Input B (Switch)         | Second input to NAND1                             |
+| 3    | Pin 3 (IC1)            | Pin 5 (IC1)              | NAND1 output → input of NAND2                     |
+| 4    | Pin 3 (IC1)            | Pin 10 (IC1)             | NAND1 output → input of NAND3                     |
+| 5    | Pin 4 (IC1)            | Input A (Switch)         | A again → input of NAND2                          |
+| 6    | Pin 6 (IC1)            | Pin 12 (IC1)             | NAND2 output → input of NAND4                     |
+| 7    | Pin 9 (IC1)            | Input B (Switch)         | B again → input of NAND3                          |
+| 8    | Pin 8 (IC1)            | Pin 13 (IC1)             | NAND3 output → input of NAND4                     |
+| 9    | Pin 11 (IC1)           | Pin 1 (IC2)              | A⊕B output → input of NAND5 (second half adder)   |
+| 10   | Pin 6 (IC1)            | Pin 1 (IC3)              | A.B from NAND2 → input of NAND9 (carry logic)     |
+| 11   | Pin 6 (IC1)            | Pin 2 (IC3)              | A.B again → second input of NAND9                 |
+|      | **IC2 – Second Half Adder (A⊕B, Cin)**           |                                                   |                                                   
+| 12   | Pin 2 (IC2)            | Cin (Switch)             | Cin → input of NAND5                              |
+| 13   | Pin 3 (IC2)            | Pin 5 (IC2)              | NAND5 output → input of NAND6                     |
+| 14   | Pin 3 (IC2)            | Pin 10 (IC2)             | NAND5 output → input of NAND7                     |
+| 15   | Pin 4 (IC2)            | From Pin 11 (IC1)        | A⊕B again → input of NAND6                        |
+| 16   | Pin 6 (IC2)            | Pin 12 (IC2)             | NAND6 output → input of NAND8                     |
+| 17   | Pin 9 (IC2)            | Cin (Switch)             | Cin again → input of NAND7                        |
+| 18   | Pin 8 (IC2)            | Pin 13 (IC2)             | NAND7 output → input of NAND8                     |
+| 19   | Pin 11 (IC2)           | LED (Sum Output)         | Final SUM output = (A⊕B)⊕Cin                     |
+|      | **IC3 – Carry Logic (A.B + (A⊕B).Cin)**          |                                                   |                                                   
+| 20   | Pin 1 (IC3)            | From Pin 6 (IC1)         | A.B input from NAND2                              |
+| 21   | Pin 2 (IC3)            | Cin (Switch)             | Cin input for (A⊕B).Cin                           |
+| 22   | Pin 3 (IC3)            | Carry LED                | Output = Final Carry                              |
+|      | **Power Connections (All ICs)**                   |                                                    |                                                   
+| 23   | Pin 14 (IC1, IC2, IC3) | +5V                      | Power Supply                                      |
+| 24   | Pin 7 (IC1, IC2, IC3)  | GND                      | Ground                                            |
 
+🔹 Inputs: 
+- A, B, Cin (Carry-in)
 
+🔹 Outputs:
 
+- Sum = A ⊕ B ⊕ Cin
 
+- Carry = (A · B) + (B · Cin) + (A · Cin)
+  
+- Tinkercad Project Link:
 
+👉 [View on Tinkercad](https://www.tinkercad.com/things/0fPT0lMxoBd-full-addaer-using-nand-gates-7400)
 
-
-
-
+  
 
 
 
