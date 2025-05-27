@@ -10,6 +10,7 @@
 -  [Integrated Circuits-Ic's](#Integrated-Circuits-Ic's)
 -  [Implementation of Logic Gates](#Implementation-of-Logic-Gates)
 -  [Implementation of Half Adder](#Implementation-of-Half-Adder)
+-  [Implementation of Full Adder](#Implementation-of-Full-Adder)
 
   
 # What is Digital Electronics
