@@ -231,7 +231,7 @@ The AND gate outputs 1 (true) only when both inputs are 1.  Otherwise, it output
 - A.B=X.
 - The value of X will be True when both the inputs will be True.
 # Truth Table
-| INP A | INP  B | OUTPUT Y|
+| INPUT A | INPUT  B | OUTPUT Y|
 |---|---|---------|
 | 0 | 0 |    0    |
 | 0 | 1 |    0    |
@@ -247,7 +247,7 @@ A curved-shaped gate with two inputs and one output.
 The OR gate outputs 1 (true) if at least one  input  is  1.
 - It outputs 0 only when both inputs are 0.
 # Truth Table
-|INP A | INP B | OUTPUT Y |
+|INPUT A | INPUT B | OUTPUT Y |
 |---|---|--------|
 | 0 | 0 |   0    |
 | 0 | 1 |   1    |
@@ -268,7 +268,7 @@ The output Y is the negation of the input A, respresented as, Y =  Ā
 Returns 1, if the input is 0.
 Returns 0, if the input is 1.
 # Truth table : 
-| INP A| OUTPUT Y |
+| INPUT A| OUTPUT Y |
 |-------|--------|
 |   0   |   1    |
 |   1   |   0    |
@@ -281,7 +281,7 @@ A NAND (Not AND) gate gives an output of 0 only when both inputs are 1.
 - It is the inverse of the AND gate.
 # Truth Table
 
-| INP A | INP B | OUTPUT Y|
+| INPUT A | INPUT B | OUTPUT Y|
 |---|---|--------------|
 | 0 | 0 |      1       |
 | 0 | 1 |      1       |
@@ -296,7 +296,7 @@ A NOR (Not OR) gate gives an output of 1 only when both inputs are 0.
 - It is the inverse of the OR gate.
 # Truth Table : 
 
-| INP A | INP B | OUTPUT Y|
+| INPUT A | INPUT B | OUTPUT Y|
 |---|---|--------------|
 | 0 | 0 |      1       |
 | 0 | 1 |      0       |
@@ -313,7 +313,7 @@ The XOR (Exclusive OR) gate gives an output of 1 only when the inputs are differ
 
 # Truth Table : 
 
-| INP A | INP  B | OUTPUT Y |
+| INPUT A | INPUT  B | OUTPUT Y |
 |---|---|------------|
 | 0 | 0 |     0      |
 | 0 | 1 |     1      |
@@ -329,7 +329,7 @@ The XNOR (Exclusive NOR) gate gives an output of 1 only when the inputs are the 
 - Boolean Expression : Y = (A ⊕ B)̅ = A·B + A̅·B̅
 # Truth Table : 
 
-| INP A |  INP B | OUTPUT Y|
+| INPUT A |  INPUT B | OUTPUT Y|
 |---|---|---------------|
 | 0 | 0 |       1       |
 | 0 | 1 |       0       |
@@ -364,7 +364,10 @@ The XNOR (Exclusive NOR) gate gives an output of 1 only when the inputs are the 
 | XNOR       | 74266     | Equality checkers, error detection, phase detectors                       | 4               | 14        |
 
 # 1.IC 7408 – Quad 2-Input AND Gate
-![image](https://github.com/user-attachments/assets/45aee511-1515-4439-b4e1-4f886250f4a1)
+![image](https://github.com/user-attachments/assets/45aee511-1515-4439-b4e1-4f886250f4a1) 
+
+![image](https://github.com/user-attachments/assets/b7d118ec-ce1a-43d8-85dc-b2870a8a99ad)
+
 
 ![image](https://github.com/user-attachments/assets/5efd3b5d-e367-4872-a328-f8b7948c90db)
 
@@ -401,7 +404,10 @@ Description:
 - Power: Pin 14 (Vcc), Ground: Pin 7.
 ----------------------------------------------
 # 2. IC 7432 – Quad 2-Input OR Gate
-![image](https://github.com/user-attachments/assets/c7a91fb3-7d3a-4f40-b5b4-b2173fdfdd41)
+![image](https://github.com/user-attachments/assets/c7a91fb3-7d3a-4f40-b5b4-b2173fdfdd41) 
+
+![image](https://github.com/user-attachments/assets/54ad4409-dc42-41f1-8cbb-d1aaddadcbcc)
+
 
 ![image](https://github.com/user-attachments/assets/0b529e47-8422-421c-b7f6-0f99d7b36bc6)
 
@@ -443,6 +449,9 @@ Description:
 # 3. IC 7404 – Hex Inverter (NOT Gate)
 ![image](https://github.com/user-attachments/assets/3b30e215-e5e4-4324-8286-a39debbb4f89)
 
+![image](https://github.com/user-attachments/assets/676f0fa4-f4d2-4909-aa72-7c779a049b82)
+
+
 ![image](https://github.com/user-attachments/assets/2332a6a8-8492-493d-836d-f3b40a570025)
 
 
@@ -479,6 +488,9 @@ Description:
 ----------------------------------------------------------------------
 # 4. IC 7400 – Quad 2-Input NAND Gate
 ![image](https://github.com/user-attachments/assets/abae2531-623d-43d1-adbc-73efa6e21c35)
+
+![image](https://github.com/user-attachments/assets/8bdc10be-0188-4768-9bb7-98f6db0cb3e1)
+
 
 ![image](https://github.com/user-attachments/assets/9cc191db-7759-436f-b26c-52c495a567c1)
 
@@ -519,6 +531,8 @@ Description:
 # 5. IC 7402 – Quad 2-Input NOR Gate
 ![image](https://github.com/user-attachments/assets/93787e33-8b3b-4980-9982-b575e4a2af11)
 
+![image](https://github.com/user-attachments/assets/6faaf761-690b-44f8-b53c-8becac8ff43c)
+
 
 ![image](https://github.com/user-attachments/assets/5a9d3247-d4db-41bd-b27c-09bd360e1fa4)
 
@@ -556,6 +570,9 @@ Description:
 # 6. IC 7486 – Quad 2-Input XOR Gate
 ![image](https://github.com/user-attachments/assets/0108f188-5c14-4b4e-abda-4daf1efb4fc1)
 
+![image](https://github.com/user-attachments/assets/6b1838c4-27ed-4195-9903-e483144477ff)
+
+
 ![image](https://github.com/user-attachments/assets/0ed28f26-279e-47d3-b9fe-3ca86e3d8c0a)
 
 ### 🔹 XOR Gate using IC 7486  
@@ -592,6 +609,8 @@ Description:
 --------------------------------------------------------
  # 7.  IC 74266 – Quad 2-Input XNOR Gate
  ![image](https://github.com/user-attachments/assets/42dd988e-525d-4f70-b67b-4b3a37b793e2)
+
+![image](https://github.com/user-attachments/assets/767afb4b-528d-490f-8086-588c93deacca)
 
  ![image](https://github.com/user-attachments/assets/0cb6999c-f562-48aa-a446-b5be1b561c78)
 
