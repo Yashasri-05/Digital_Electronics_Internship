@@ -11,6 +11,7 @@
 -  [Implementation of Logic Gates](#Implementation-of-Logic-Gates)
 -  [Implementation of Half Adder](#Implementation-of-Half-Adder)
 -  [Implementation of Full Adder](#Implementation-of-Full-Adder)
+-  [2x1 Multiplexer](#2x1-Multiplexer)
 
   
 # What is Digital Electronics
@@ -783,6 +784,30 @@ Tinkercad Project Link:
 - Tinkercad Project Link:
 
 👉 [View on Tinkercad](https://www.tinkercad.com/things/0fPT0lMxoBd-full-addaer-using-nand-gates-7400)
+
+--------------------------------------------------------------------------
+# 2x1 Multiplexer
+![image](https://github.com/user-attachments/assets/ab7e84ff-fc37-41f5-a79d-878c55f8ea61)
+
+![image](https://github.com/user-attachments/assets/a73fa015-7c86-4898-a4f8-478a73c9f28b)
+
+-  2x1 Multiplexer Truth Table
+
+| S (Select) | A (Input 0) | B (Input 1) | Y (Output) |
+|------------|-------------|-------------|------------|
+|     0      |      0      |      0      |     0      |
+|     0      |      0      |      1      |     0      |
+|     0      |      1      |      0      |     1      |
+|     0      |      1      |      1      |     1      |
+|     1      |      0      |      0      |     0      |
+|     1      |      0      |      1      |     1      |
+|     1      |      1      |      0      |     0      |
+|     1      |      1      |      1      |     1      |
+
+- Tinkercad Project Link:
+
+👉 [View on Tinkercad](https://www.tinkercad.com/things/iDWR7VYfuA9-21-multiplexer)
+
 
   
 
