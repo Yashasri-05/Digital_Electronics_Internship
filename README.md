@@ -11,7 +11,7 @@
 -  [Implementation of Logic Gates](#Implementation-of-Logic-Gates)
 -  [Implementation of Half Adder](#Implementation-of-Half-Adder)
 -  [Implementation of Full Adder](#Implementation-of-Full-Adder)
--  [2x1 Multiplexer](#2x1-Multiplexer)
+-  [MULTIPLEXERS](#MULTIPLEXERS) 
 
   
 # What is Digital Electronics
@@ -805,25 +805,109 @@ Tinkercad Project Link:
 👉 [View on Tinkercad](https://www.tinkercad.com/things/0fPT0lMxoBd-full-addaer-using-nand-gates-7400)
 
 --------------------------------------------------------------------------
-# 2x1 Multiplexer
-![image](https://github.com/user-attachments/assets/ab7e84ff-fc37-41f5-a79d-878c55f8ea61)
+# MULTIPLEXERS 
+
+# 📘 What is a Multiplexer?
+
+A multiplexer (MUX) is a combinational logic circuit that selects one input from multiple data inputs and forwards it to a single output line, based on control signals known as select lines.
+- A multiplexer with n select lines can handle 2ⁿ input lines.
+  
+➤ Key Features:
+- Acts like a digital switch
+- Reduces number of data lines
+- Common in communication systems and data routing
+  
+➤ Types of multiplexers (MUX) 
+
+| **Type of MUX** | **Number of Inputs** | **Select Lines** | **Output Lines** | **Selection Capacity**           |
+|-----------------|----------------------|------------------|------------------|----------------------------------|
+| 2x1 MUX         | 2                    | 1                | 1                | Selects 1 out of 2 inputs        |
+| 4x1 MUX         | 4                    | 2                | 1                | Selects 1 out of 4 inputs        |
+| 8x1 MUX         | 8                    | 3                | 1                | Selects 1 out of 8 inputs        |
+| 16x1 MUX        | 16                   | 4                | 1                | Selects 1 out of 16 inputs       |
+| 32x1 MUX        | 32                   | 5                | 1                | Selects 1 out of 32 inputs       |
+
+# 1. 2x1 Multiplexer
+
+![image](https://github.com/user-attachments/assets/648908d8-77aa-4e59-b6a9-4a3397b66b55)
+
+ ➤ **Definition**:
+
+A 2x1 multiplexer (MUX) is a combinational logic circuit that selects one of two input data lines and forwards the selected input to a single output line, based on the value of a control signal (also called a select line).
+
+➤  **Working Principle**:
+
+The output of the 2x1 Mux will depend on the selection line S0,
+
+- When S is 0(low), the I0 is selected
+  
+- When S0 is 1(High), I1 is selected
+
+  
+
+
+➤ **How Logic Gates Work Behind the Scenes**:
+
+1.NOT gate inverts S → gives S̅
+
+2.AND gate 1: S̅ · I0 (passes I0 when S = 0)
+
+3.AND gate 2: S · I1 (passes I1 when S = 1)
+
+4.OR gate: Combines both → Output Y = S̅·I0 + S·I1
+
+➤ **Applications of 2x1 MUX**:
+
+- Selects between two data inputs.
+
+- Used in ALUs for operation control.
+
+- Switches signals in communication systems.
+
+- Controls data paths in processors.
+
+- Implements basic logic functions.
+
+
 
 ![image](https://github.com/user-attachments/assets/a73fa015-7c86-4898-a4f8-478a73c9f28b)
 
--  2x1 Multiplexer Truth Table
+➤  **2x1 Multiplexer Truth Table**:
 
-| S (Select) | A (Input 0) | B (Input 1) | Y (Output) |
-|------------|-------------|-------------|------------|
-|     0      |      0      |      0      |     0      |
-|     0      |      0      |      1      |     0      |
-|     0      |      1      |      0      |     1      |
-|     0      |      1      |      1      |     1      |
-|     1      |      0      |      0      |     0      |
-|     1      |      0      |      1      |     1      |
-|     1      |      1      |      0      |     0      |
-|     1      |      1      |      1      |     1      |
+| **Select Line (S)** | **Input I0** | **Input I1** | **Output (Y)** |
+|---------------------|--------------|--------------|----------------|
+| 0                   | 0            | X (don’t care) | 0             |
+| 0                   | 1            | X             | 1              |
+| 1                   | X            | 0             | 0              |
+| 1                   | X            | 1             | 1              |
 
-- Tinkercad Project Link:
+➤ **Explanation**:
+- When S = 0, the output Y = I0
+
+- When S = 1, the output Y = I1
+
+- X means "don’t care" because that input is not selected
+
+
+| **Connection**         | **From IC (Pin)**         | **To IC (Pin)**                                | **Comment**                      |
+|------------------------------|---------------------------|------------------------------------------|--------------------------------------|
+| **VCC** (+5V)                | 7408 (Pin 14)             | VCC                                      | Power for AND gates                  |
+|                              | 7432 (Pin 14)             | VCC                                      | Power for OR gate                    |
+|                              | 7404 (Pin 14)             | VCC                                      | Power for NOT gate                   |
+| **GND**                      | 7408 (Pin 7)              | GND                                      | Ground for AND gates                 |
+|                              | 7432 (Pin 7)              | GND                                      | Ground for OR gate                   |
+|                              | 7404 (Pin 7)              | GND                                      | Ground for NOT gate                  |
+| **Select input (S)**         | Input Switch              | 7404 (Pin 1)                             | S to NOT gate input                  |
+| **S̅ (NOT S)**               | 7404 (Pin 2)              | 7408 (Pin 2)                              | NOT S to AND gate 1 input B         |
+| **Data input I0**            | Input Switch              | 7408 (Pin 1)                             | I0 to AND gate 1 input A            |
+| **Data input I1**            | Input Switch              | 7408 (Pin 4)                              | I1 to AND gate 2 input A            |
+| **Select input S**           | Same as above (S)         | 7408 (Pin 5)                              | S to AND gate 2 input B             |
+| **Output A (I0 · S̅)**       | 7408 (Pin 3)              | 7432 (Pin 1)                              | Output of AND1 to OR input A        |
+| **Output B (I1 · S)**        | 7408 (Pin 6)              | 7432 (Pin 2)                              | Output of AND2 to OR input B        |
+| **Final Output (Y)**         | 7432 (Pin 3)              | Output LED or test pin                   | Final MUX output                     |
+
+
+- **Tinkercad Project Link**:
 
 👉 [View on Tinkercad](https://www.tinkercad.com/things/iDWR7VYfuA9-21-multiplexer)
 
