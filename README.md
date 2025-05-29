@@ -951,6 +951,15 @@ A 4x1 multiplexer is a digital device that selects one of four input lines (I0�
 
 - Arithmetic circuits and ALUs
 
+➤  **ICs Used for 4x1 Multiplexer (with 3-input AND, 2 NOT, 2 OR Gates)**
+
+| **IC Name** | **IC Number** | **Type**                | **Usage**                            |
+|-------------|----------------|-------------------------|---------------------------------------|
+| Triple 3-input AND Gate | 7411           | 3-input AND gate (Triple) | To create selection logic (I0–I3)     |
+| Hex Inverter             | 7404           | NOT gate (Hex)            | To generate NOT S0 and NOT S1         |
+| Quad 2-input OR Gate     | 7432           | OR gate (Quad 2-input)    | To combine AND gate outputs (final Y) |
+
+
 
 
 **4x1 Multiplexer Truth Table**
@@ -964,6 +973,29 @@ A 4x1 multiplexer is a digital device that selects one of four input lines (I0�
 
 
 ![image](https://github.com/user-attachments/assets/868d9789-9a92-43d3-8fac-02291b4c4353)
+
+### 🔌 4x1 MUX Pin-to-Pin Connection Table (Using 3-Input AND, OR, NOT)
+
+| **Signal**         | **From (IC & Pin)**         | **To (IC & Pin)**             | **Purpose**                           |
+|--------------------|-----------------------------|-------------------------------|----------------------------------------|
+| S0                 | External input (switch)     | 7404 Pin 1                    | Select line S0                         |
+| NOT S0             | 7404 Pin 2                   | AND1 (Pin 2), AND3 (Pin 2)    | Inverted S0                            |
+| S1                 | External input (switch)     | 7404 Pin 3                    | Select line S1                         |
+| NOT S1             | 7404 Pin 4                   | AND1 (Pin 3), AND2 (Pin 2)    | Inverted S1                            |
+| I0                 | External input              | AND1 (Pin 1)                  | Input 0                                |
+| I1                 | External input              | AND2 (Pin 1)                  | Input 1                                |
+| I2                 | External input              | AND3 (Pin 1)                  | Input 2                                |
+| I3                 | External input              | AND4 (Pin 1)                  | Input 3                                |
+| S0                 | Direct                      | AND2 (Pin 3), AND4 (Pin 3)    | Direct S0                              |
+| S1                 | Direct                      | AND3 (Pin 3), AND4 (Pin 2)    | Direct S1                              |
+| AND1 Output        | 3-input AND gate (Pin 4)    | OR gate (7432 Pin 1)          | I0 path                                |
+| AND2 Output        | 3-input AND gate (Pin 5)    | OR gate (7432 Pin 2)          | I1 path                                |
+| AND3 Output        | 3-input AND gate (Pin 6)    | OR gate (7432 Pin 4)          | I2 path                                |
+| AND4 Output        | 3-input AND gate (Pin 7)    | OR gate (7432 Pin 5)          | I3 path                                |
+| OR gate Output     | 7432 Pin 3, 6               | Output (Y)                    | Final MUX Output                       |
+| VCC (All ICs)      | 5V Supply                   | 7408/7404/7432 Pin 14         | Power supply                           |
+| GND (All ICs)      | Ground                      | 7408/7404/7432 Pin 7          | Ground                                 |
+
 
  **Tinkercad Project Link**:
  👉 [ view on Tinkercad](https://www.tinkercad.com/things/iuB01vg3W2d-4x1-mux)
