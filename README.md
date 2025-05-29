@@ -812,12 +812,12 @@ Tinkercad Project Link:
 A multiplexer (MUX) is a combinational logic circuit that selects one input from multiple data inputs and forwards it to a single output line, based on control signals known as select lines.
 - A multiplexer with n select lines can handle 2ⁿ input lines.
   
-➤ Key Features:
+➤ **Key Features**:
 - Acts like a digital switch
 - Reduces number of data lines
 - Common in communication systems and data routing
   
-➤ Types of multiplexers (MUX) 
+➤ **Types of multiplexers (MUX)** 
 
 | **Type of MUX** | **Number of Inputs** | **Select Lines** | **Output Lines** | **Selection Capacity**           |
 |-----------------|----------------------|------------------|------------------|----------------------------------|
@@ -831,11 +831,11 @@ A multiplexer (MUX) is a combinational logic circuit that selects one input from
 
 ![image](https://github.com/user-attachments/assets/648908d8-77aa-4e59-b6a9-4a3397b66b55)
 
- ➤ **Definition**:
+ ➤  **Definition**:
 
 A 2x1 multiplexer (MUX) is a combinational logic circuit that selects one of two input data lines and forwards the selected input to a single output line, based on the value of a control signal (also called a select line).
 
-➤  **Working Principle**:
+➤   **Working Principle**:
 
 The output of the 2x1 Mux will depend on the selection line S0,
 
@@ -846,7 +846,7 @@ The output of the 2x1 Mux will depend on the selection line S0,
   
 
 
-➤ **How Logic Gates Work Behind the Scenes**:
+➤  **How Logic Gates Work Behind the Scenes**:
 
 1.NOT gate inverts S → gives S̅
 
@@ -856,7 +856,7 @@ The output of the 2x1 Mux will depend on the selection line S0,
 
 4.OR gate: Combines both → Output Y = S̅·I0 + S·I1
 
-➤ **Applications of 2x1 MUX**:
+➤  **Applications of 2x1 MUX**:
 
 - Selects between two data inputs.
 
@@ -872,7 +872,7 @@ The output of the 2x1 Mux will depend on the selection line S0,
 
 ![image](https://github.com/user-attachments/assets/a73fa015-7c86-4898-a4f8-478a73c9f28b)
 
-➤  **2x1 Multiplexer Truth Table**:
+➤   **2x1 Multiplexer Truth Table**:
 
 | **Select Line (S)** | **Input I0** | **Input I1** | **Output (Y)** |
 |---------------------|--------------|--------------|----------------|
@@ -881,13 +881,14 @@ The output of the 2x1 Mux will depend on the selection line S0,
 | 1                   | X            | 0             | 0              |
 | 1                   | X            | 1             | 1              |
 
-➤ **Explanation**:
+➤  **Explanation**:
 - When S = 0, the output Y = I0
 
 - When S = 1, the output Y = I1
 
 - X means "don’t care" because that input is not selected
-
+  
+➤  **Pin-to-Pin Connection Table of 2x1 Multiplexer:**
 
 | **Connection**         | **From IC (Pin)**         | **To IC (Pin)**                                | **Comment**                      |
 |------------------------------|---------------------------|------------------------------------------|--------------------------------------|
@@ -907,9 +908,71 @@ The output of the 2x1 Mux will depend on the selection line S0,
 | **Final Output (Y)**         | 7432 (Pin 3)              | Output LED or test pin                   | Final MUX output                     |
 
 
-- **Tinkercad Project Link**:
+ **Tinkercad Project Link**:
 
 👉 [View on Tinkercad](https://www.tinkercad.com/things/iDWR7VYfuA9-21-multiplexer)
+
+-------------------------------------------
+# 2. 4x1 Multiplexer
+
+![image](https://github.com/user-attachments/assets/b0b30200-6745-4fe4-bc34-daeccda750d9)
+
+➤  **Definition**:
+
+A 4x1 multiplexer is a digital device that selects one of four input lines (I0–I3) and routes it to a single output (Y) based on the combination of two select lines (S1 and S0).
+
+➤ **Logic Expression:** Y = S̅1·S̅0·I0 + S̅1·S0·I1 + S1·S̅0·I2 + S1·S0·I3
+
+➤ **ICs Used to Build 4x1 MUX Using Logic Gates**
+
+| **IC**    | **Function**       | **Details**                           |
+|-----------|--------------------|--------------------------------       |
+| 7408 - 2     | AND gate (quad 3-input) | Used for input selection logic |
+| 7432 - 1     | OR gate (quad 2-input)  | Combines outputs of AND gates  |
+| 7404 - 1    | NOT gate (hex inverter)| Inverts select lines           |
+
+➤  **Working Principle:**
+
+- The select lines (S1 and S0) determine which one of the four inputs (I0–I3) is passed to the output (Y).
+
+- Logic gates (AND, OR, NOT) are used to enable only the selected input.
+
+- Only one input line is active at a time, based on the select line combination.
+
+➤   **Applications of 4x1 MUX:**
+
+- Data routing in digital circuits
+
+- Control units in CPUs and microcontrollers
+
+- Function generation using logic expressions
+
+- Signal selection in communication systems
+
+- Arithmetic circuits and ALUs
+
+
+
+**4x1 Multiplexer Truth Table**
+
+| **Select Line S1** | **Select Line S0** | **Input Selected** | **Output (Y)** |
+|--------------------|--------------------|---------------------|----------------|
+| 0                  | 0                  | I0                  | I0             |
+| 0                  | 1                  | I1                  | I1             |
+| 1                  | 0                  | I2                  | I2             |
+| 1                  | 1                  | I3                  | I3             |
+
+
+![image](https://github.com/user-attachments/assets/868d9789-9a92-43d3-8fac-02291b4c4353)
+
+ **Tinkercad Project Link**:
+ 👉 [ view on Tinkercad](https://www.tinkercad.com/things/iuB01vg3W2d-4x1-mux)
+
+
+
+
+
+
 
 
   
