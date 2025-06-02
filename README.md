@@ -1,20 +1,21 @@
                                                                                       DIGITAL ELECTRONICS
 # Table of Contents
 
--  [What is Digital Electronics](#What-is-Digital-Electronics) 
--  [Applications of Digital Electronics](#Applications-of-Digital-Electronics)
--  [Digital vs Analog Signals](#Digital-vs-Analog-Signals)
--  [Number Systems](#Number-Systems)
--  [Conversion between Number System](#Conversion-between-Number-System)
--  [Basic Logic Gates](#Basic-Logic-Gates)
--  [Integrated Circuits-Ic's](#Integrated-Circuits-Ic's)
--  [Implementation of Logic Gates](#Implementation-of-Logic-Gates)
--  [Implementation of Half Adder](#Implementation-of-Half-Adder)
--  [Implementation of Full Adder](#Implementation-of-Full-Adder)
+
+-  [WHAT IS DIGITAL ELECTRONICS](#WHAT-IS-DIGITAL-ELECTRONICS)
+-  [APPLICATIONS OF DIGITAL ELECTRONICS](#APPLICATIONS-OF-DIGITAL-ELECTRONICS)
+-  [DIGITAL VS ANALOG SIGNALS](#DIGITAL-VS-ANALOG-SIGNALS)
+-  [NUMBER SYSTEM](#NUMBER-SYSTEM)
+-  [CONVERSION BETWEEN NUMBER SYSTEM](#CONVERSION-BETWEEN-NUMBER-SYSTEM)
+-  [BASIC LOGIC GATES](#BASIC-LOGIC-GATES)
+-  [INTEGRATED CIRCUITS(IC'S)](#INTEGRATED-CIRCUITS(IC'S))
+-  [IMPLEMENTATION OF LOGIC GATES](#IMPLEMENTATION-OF-LOGIC-GATES)
+-  [IMPLEMENTATION OF HALFADDER](#IMPLEMENTATION-OF-HALFADDER)
+-  [IMPLEMENTATION OF FULLADDER](#IMPLEMENTATION-OF-FULLADDER)
 -  [MULTIPLEXERS](#MULTIPLEXERS) 
 
   
-# What is Digital Electronics
+# WHAT IS DIGITAL ELECTRONICS
 Digital electronics is a branch of electronics that deals with systems that use discrete (distinct) signal levels, typically represented by binary numbers — 0 and 1. Unlike analog electronics, where signals can vary smoothly across a range of values, digital electronics processes information using only two states (usually referred to as LOW and HIGH, or OFF and ON).
 
 These two states are typically represented by:
@@ -23,8 +24,7 @@ These two states are typically represented by:
 
 1 → high voltage (e.g., 5 volts or 3.3 volts)
 
-# Applications of Digital Electronics
-
+# APPLICATIONS OF DIGITAL ELECTRONICS
 
 
 
@@ -52,7 +52,7 @@ These two states are typically represented by:
 
 8. Banking, Security, and E-commerce
 
-# Digital vs Analog Signals
+# DIGITAL VS ANALOG SIGNALS
 |  ASPECT | DIGITAL SIGNAL | ANALOG SIGNAL|
 |----------|----------|----------|
 | Nature | Discrete   | Continuous
@@ -79,7 +79,8 @@ A number system is a way to represent and express numbers using a set of symbols
 | Octal         | 8    | 0-7                      | Compact representation of binary; often used in older computer systems and some embedded systems. | 745₈ ( = 493 in decimal ) |
 | Decimal       | 10   | 0-9                      | Natural number system used by humans; common for input/output display. | 259₁₀ |
 | Hexadecimal   | 16   | 0-9, A-F (A=10 ... F=15) | Compact representation of binary; widely used in programming, memory addressing. | 3F₁₆ ( = 63 in decimal ) |
-# Conversion between number system
+# CONVERSION BETWEEN NUMBER SYSTEM
+
 ### 1. Binary → Decimal  
 Binary: 1011₂
 
@@ -219,7 +220,9 @@ Group 3 bits: **000** | **101** | **111**
 
 Result → **057₈**
 ------------------------------------------------
+
 # BASIC LOGIC GATES
+
 # 1.AND GATE
 # Symbol: 
 ![image](https://github.com/user-attachments/assets/dece6c82-9d25-4ffd-ba99-19ff4d517094)
@@ -336,7 +339,9 @@ The XNOR (Exclusive NOR) gate gives an output of 1 only when the inputs are the 
 | 1 | 0 |       0       |
 | 1 | 1 |       1       |
 -----------------------------------------------------
-# Integrated Circuits(Ic's)
+
+# INTEGRATED CIRCUITS(IC'S)
+
 # What is an Ic?
 - IC (Integrated Circuit) – A microelectronic device that integrates multiple electronic components into a single chip to perform a specific function or set of functions.
 # Types of Logic Gates and Their ICs
@@ -648,7 +653,7 @@ Description:
 
 ## IMPLEMENTATION OF LOGIC GATES
 
- IMPLEMENTATION OF AND GATE USING NAND GATE 7400
+ **IMPLEMENTATION OF AND GATE USING NAND GATE 7400**
  
 ![image](https://github.com/user-attachments/assets/dc20e6cf-d5bc-4c5b-a14b-463b782abd9f)
 
@@ -657,7 +662,7 @@ Description:
 👉 [View  AND GATE USING NAND Gate 7400  Project on Tinkercad](https://www.tinkercad.com/things/5QLXe5UlPai-and-using-nand)
 
 -----------------------------------
-IMPLEMENTATION OF OR GATE  USING NAND GATE 7400
+**IMPLEMENTATION OF OR GATE  USING NAND GATE 7400**
 
 ![image](https://github.com/user-attachments/assets/e912b171-a7f1-4739-9aab-3156317bcd2e)
 
@@ -667,7 +672,7 @@ Tinkercad Project Link:
 👉 [View  OR GATE USING NAND GATE 7400 Circuit on Tinkercad](https://www.tinkercad.com/things/i38juEEBKzw-or-using-nand)
 
 -------------------------------------
- IMPLEMENTATION OF NOT GATE USING NAND GATE 7400
+ **IMPLEMENTATION OF NOT GATE USING NAND GATE 7400**
 
 ![image](https://github.com/user-attachments/assets/e581f8f1-bded-499c-a4bd-e2964cd17cc0)
 
@@ -677,7 +682,7 @@ Tinkercad Project Link:
 👉 [View NOT GATE USING NAND 7400](https://www.tinkercad.com/things/a9MY7WZkC7Q-not-gate-using-nand)
 
 -----------------------------------------------
- IMPLEMENTATION OF AND GATE USING NOR GATE 7402
+ **IMPLEMENTATION OF AND GATE USING NOR GATE 7402**
 
  ![image](https://github.com/user-attachments/assets/cce5f8b9-3921-424e-9f51-db751d8bd1a9)
 
@@ -687,7 +692,7 @@ Tinkercad Project Link:
  
  -------------------------------------
  
-IMPLEMENTATION OF OR GATE USING NOR GATE 7402
+**IMPLEMENTATION OF OR GATE USING NOR GATE 7402**
 
 ![image](https://github.com/user-attachments/assets/6b37dcab-1ac6-4ed7-a929-f16a2ba25b63)
 
@@ -696,7 +701,7 @@ IMPLEMENTATION OF OR GATE USING NOR GATE 7402
 👉[View OR GATE USING NOR 7402](https://www.tinkercad.com/things/hlNbfl7z4OF-or-gate-using-nor-7402)
 
 --------------------------------------------
-IMPLEMENTATION OF NOT GATE USING NOR GATE 7402
+**IMPLEMENTATION OF NOT GATE USING NOR GATE 7402**
 
 ![image](https://github.com/user-attachments/assets/8f5cb303-badd-4985-b53f-52269f24e7ee)
 
@@ -705,7 +710,7 @@ Tinkercad Project Link:
 👉 [View NOT GATE USING NOR GATE 7402](https://www.tinkercad.com/things/gHPBkiHX2zU-not-gate-using-nor-gate-7402)
 
 ------------------------------------------------------------------------
-# Implementation of Half Adder
+# IMPLEMENTATION OF HALFADDER
   
   ![image](https://github.com/user-attachments/assets/6a7d9236-cb01-46f3-b07e-b88bf0b4440b)
 
@@ -750,7 +755,7 @@ Tinkercad Project Link:
  👉 [Half-Adder using NAND Gates (7400)](https://www.tinkercad.com/things/iq6dWuUZlBf-half-adder-using-nand-gates-7400)
 
  ------------------------------------------------------------
- # Implementation of Full Adder 
+ # IMPLEMENTATION OF FULLADDER 
 
  ![image](https://github.com/user-attachments/assets/1ce784e4-5e68-4da9-817b-25b7ebd2078f)
 
@@ -807,17 +812,19 @@ Tinkercad Project Link:
 --------------------------------------------------------------------------
 # MULTIPLEXERS 
 
-# 📘 What is a Multiplexer?
+#  What is a Multiplexer?
 
 A multiplexer (MUX) is a combinational logic circuit that selects one input from multiple data inputs and forwards it to a single output line, based on control signals known as select lines.
 - A multiplexer with n select lines can handle 2ⁿ input lines.
   
 ➤ **Key Features**:
+
 - Acts like a digital switch
 - Reduces number of data lines
 - Common in communication systems and data routing
   
 ➤ **Types of multiplexers (MUX)** 
+
 
 | **Type of MUX** | **Number of Inputs** | **Select Lines** | **Output Lines** | **Selection Capacity**           |
 |-----------------|----------------------|------------------|------------------|----------------------------------|
@@ -832,8 +839,10 @@ A multiplexer (MUX) is a combinational logic circuit that selects one input from
 ![image](https://github.com/user-attachments/assets/648908d8-77aa-4e59-b6a9-4a3397b66b55)
 
  ➤  **Definition**:
+ 
 
 A 2x1 multiplexer (MUX) is a combinational logic circuit that selects one of two input data lines and forwards the selected input to a single output line, based on the value of a control signal (also called a select line).
+
 
 ➤   **Working Principle**:
 
@@ -848,6 +857,7 @@ The output of the 2x1 Mux will depend on the selection line S0,
 
 ➤  **How Logic Gates Work Behind the Scenes**:
 
+
 1.NOT gate inverts S → gives S̅
 
 2.AND gate 1: S̅ · I0 (passes I0 when S = 0)
@@ -855,6 +865,7 @@ The output of the 2x1 Mux will depend on the selection line S0,
 3.AND gate 2: S · I1 (passes I1 when S = 1)
 
 4.OR gate: Combines both → Output Y = S̅·I0 + S·I1
+
 
 ➤  **Applications of 2x1 MUX**:
 
@@ -872,7 +883,9 @@ The output of the 2x1 Mux will depend on the selection line S0,
 
 ![image](https://github.com/user-attachments/assets/a73fa015-7c86-4898-a4f8-478a73c9f28b)
 
+
 ➤   **2x1 Multiplexer Truth Table**:
+
 
 | **Select Line (S)** | **Input I0** | **Input I1** | **Output (Y)** |
 |---------------------|--------------|--------------|----------------|
@@ -881,14 +894,19 @@ The output of the 2x1 Mux will depend on the selection line S0,
 | 1                   | X            | 0             | 0              |
 | 1                   | X            | 1             | 1              |
 
+
 ➤  **Explanation**:
+
+
 - When S = 0, the output Y = I0
 
 - When S = 1, the output Y = I1
 
 - X means "don’t care" because that input is not selected
   
+  
 ➤  **Pin-to-Pin Connection Table of 2x1 Multiplexer:**
+
 
 | **Connection**         | **From IC (Pin)**         | **To IC (Pin)**                                | **Comment**                      |
 |------------------------------|---------------------------|------------------------------------------|--------------------------------------|
@@ -909,27 +927,35 @@ The output of the 2x1 Mux will depend on the selection line S0,
 
 
  **Tinkercad Project Link**:
+ 
 
 👉 [View on Tinkercad](https://www.tinkercad.com/things/iDWR7VYfuA9-21-multiplexer)
 
 -------------------------------------------
+
+
 # 2. 4x1 Multiplexer
 
 ![image](https://github.com/user-attachments/assets/b0b30200-6745-4fe4-bc34-daeccda750d9)
+
 
 ➤  **Definition**:
 
 A 4x1 multiplexer is a digital device that selects one of four input lines (I0–I3) and routes it to a single output (Y) based on the combination of two select lines (S1 and S0).
 
+
 ➤ **Logic Expression:** Y = S̅1·S̅0·I0 + S̅1·S0·I1 + S1·S̅0·I2 + S1·S0·I3
 
+
 ➤ **ICs Used to Build 4x1 MUX Using Logic Gates**
+
 
 | **IC**    | **Function**       | **Details**                           |
 |-----------|--------------------|--------------------------------       |
 | 7408 - 2     | AND gate (quad 3-input) | Used for input selection logic |
 | 7432 - 1     | OR gate (quad 2-input)  | Combines outputs of AND gates  |
 | 7404 - 1    | NOT gate (hex inverter)| Inverts select lines           |
+
 
 ➤  **Working Principle:**
 
@@ -938,6 +964,7 @@ A 4x1 multiplexer is a digital device that selects one of four input lines (I0�
 - Logic gates (AND, OR, NOT) are used to enable only the selected input.
 
 - Only one input line is active at a time, based on the select line combination.
+
 
 ➤   **Applications of 4x1 MUX:**
 
@@ -950,6 +977,7 @@ A 4x1 multiplexer is a digital device that selects one of four input lines (I0�
 - Signal selection in communication systems
 
 - Arithmetic circuits and ALUs
+- 
 
 ➤  **ICs Used for 4x1 Multiplexer (with 3-input AND, 2 NOT, 2 OR Gates)**
 
@@ -960,7 +988,7 @@ A 4x1 multiplexer is a digital device that selects one of four input lines (I0�
 | Quad 2-input OR Gate     | 7432           | OR gate (Quad 2-input)    | To combine AND gate outputs (final Y) |
 
 
-
+---------------------------------------------------------------
 
 **4x1 Multiplexer Truth Table**
 
@@ -974,7 +1002,9 @@ A 4x1 multiplexer is a digital device that selects one of four input lines (I0�
 
 ![image](https://github.com/user-attachments/assets/868d9789-9a92-43d3-8fac-02291b4c4353)
 
+
 ### 🔌 4x1 MUX Pin-to-Pin Connection Table (Using 3-Input AND, OR, NOT)
+
 
 | **Signal**         | **From (IC & Pin)**         | **To (IC & Pin)**             | **Purpose**                           |
 |--------------------|-----------------------------|-------------------------------|----------------------------------------|
@@ -999,7 +1029,8 @@ A 4x1 multiplexer is a digital device that selects one of four input lines (I0�
 
  **Tinkercad Project Link**:
  👉 [ view on Tinkercad](https://www.tinkercad.com/things/iuB01vg3W2d-4x1-mux)
-
+ 
+-------------------------------------
 
 
 
