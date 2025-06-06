@@ -376,7 +376,8 @@ The XNOR (Exclusive NOR) gate gives an output of 1 only when the inputs are the 
 ![image](https://github.com/user-attachments/assets/b7d118ec-ce1a-43d8-85dc-b2870a8a99ad)
 
 
-![image](https://github.com/user-attachments/assets/5efd3b5d-e367-4872-a328-f8b7948c90db)
+![image](https://github.com/user-attachments/assets/46cd2ec0-ef3e-4608-99ca-aae39e7f9781)
+
 
 ### 🔸 AND Gate using IC 7408
 
@@ -619,10 +620,11 @@ Description:
 
 ![image](https://github.com/user-attachments/assets/767afb4b-528d-490f-8086-588c93deacca)
 
- ![image](https://github.com/user-attachments/assets/0cb6999c-f562-48aa-a446-b5be1b561c78)
+ ![image](https://github.com/user-attachments/assets/81aea8df-6127-44f7-be63-c083386523a5)
+
 
  ### 🔹 XNOR Gate  
-👉 [Open in Tinkercad](https://www.tinkercad.com/things/foLhOr8GhDX-xnor-gate)
+👉 [Open in Tinkercad](https://www.tinkercad.com/things/foLhOr8GhDX-xnor-gate-)
 
 
 
