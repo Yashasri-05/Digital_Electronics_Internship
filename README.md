@@ -63,8 +63,8 @@ These two states are typically represented by:
 | Examples | Computer data, digital telephony  | Audio signals, temperature sensors |
 # LOGIC LEVELS
 In digital electronics, logic levels refer to the specific voltage ranges that represent binary states — typically 0 (LOW) and 1 (HIGH).
+These levels indicate how the digital system interprets voltages as logical TRUE (1) or FALSE (0).
 
-- These levels indicate how the digital system interprets voltages as logical TRUE (1) or FALSE (0).
 | Logic Level | Binary State | Typical Voltage (TTL)* | Typical Voltage (CMOS)* |
 |-------------|--------------|------------------------|-------------------------|
 | LOW         | 0            | 0 V to 0.8 V           | 0 V to ~1/3 Vdd         |
