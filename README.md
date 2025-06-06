@@ -584,7 +584,8 @@ Description:
 
 ![image](https://github.com/user-attachments/assets/0ed28f26-279e-47d3-b9fe-3ca86e3d8c0a)
 
-### 🔹 XOR Gate using IC 7486  
+### 🔹 XOR Gate using IC 7486 
+
 👉 [Open in Tinkercad](https://www.tinkercad.com/things/dVM7spCgh4L-xor-gate-ic-7486)
 
 
