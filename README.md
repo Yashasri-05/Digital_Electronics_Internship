@@ -680,7 +680,8 @@ Tinkercad Project Link:
 -------------------------------------
  **IMPLEMENTATION OF NOT GATE USING NAND GATE 7400**
 
-![image](https://github.com/user-attachments/assets/e581f8f1-bded-499c-a4bd-e2964cd17cc0)
+![image](https://github.com/user-attachments/assets/6fdc120b-aa53-4a25-8fc5-8f6d86adc058)
+
 
 
  Tinkercad Project Link :
