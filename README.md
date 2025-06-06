@@ -661,7 +661,9 @@ Description:
 
  **IMPLEMENTATION OF AND GATE USING NAND GATE 7400**
  
-![image](https://github.com/user-attachments/assets/dc20e6cf-d5bc-4c5b-a14b-463b782abd9f)
+ ![image](https://github.com/user-attachments/assets/1c7a5eae-50dd-4a99-916c-e83c15c0842a)
+
+
 
  Tinkercad Project Link
 
