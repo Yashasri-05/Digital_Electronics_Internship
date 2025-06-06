@@ -890,7 +890,8 @@ The output of the 2x1 Mux will depend on the selection line S0,
 
 
 
-![image](https://github.com/user-attachments/assets/a73fa015-7c86-4898-a4f8-478a73c9f28b)
+![image](https://github.com/user-attachments/assets/b7fb5796-f215-4946-afa2-97f63c4d144d)
+
 
 
 ➤   **2x1 Multiplexer Truth Table**:
@@ -938,7 +939,7 @@ The output of the 2x1 Mux will depend on the selection line S0,
  **Tinkercad Project Link**:
  
 
-👉 [View on Tinkercad](https://www.tinkercad.com/things/iDWR7VYfuA9-21-multiplexer)
+👉 [View on Tinkercad](https://www.tinkercad.com/things/iDWR7VYfuA9-2X1-multiplexer)
 
 -------------------------------------------
 
