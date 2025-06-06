@@ -769,7 +769,7 @@ Tinkercad Project Link:
  ![image](https://github.com/user-attachments/assets/1ce784e4-5e68-4da9-817b-25b7ebd2078f)
 
  
- ![image](https://github.com/user-attachments/assets/9aac7e74-b5df-4d28-9e2f-a7afc26e8212)
+ ![image](https://github.com/user-attachments/assets/0456493e-ca70-48d0-b602-dad8a9b68840)
 
 
 ### Full Adder using 7400 NAND IC — Pin-to-Pin Connection Table
