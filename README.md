@@ -62,7 +62,9 @@ These two states are typically represented by:
 |Devices| Computers, digital watches, microcontrollers | Microphones, speakers, analog radios | | Data Processing | Easier and more precise | More complex and less precise |            
 | Examples | Computer data, digital telephony  | Audio signals, temperature sensors |
 # LOGIC LEVELS
-In digital electronics, logic levels refer to the specific voltage ranges that represent binary states — typically 0 (LOW) and 1 (HIGH). These levels indicate how the digital system interprets voltages as logical TRUE (1) or FALSE (0).
+In digital electronics, logic levels refer to the specific voltage ranges that represent binary states — typically 0 (LOW) and 1 (HIGH).
+
+- These levels indicate how the digital system interprets voltages as logical TRUE (1) or FALSE (0).
 | Logic Level | Binary State | Typical Voltage (TTL)* | Typical Voltage (CMOS)* |
 |-------------|--------------|------------------------|-------------------------|
 | LOW         | 0            | 0 V to 0.8 V           | 0 V to ~1/3 Vdd         |
@@ -911,11 +913,11 @@ The output of the 2x1 Mux will depend on the selection line S0,
 | **Connection**         | **From IC (Pin)**         | **To IC (Pin)**                                | **Comment**                      |
 |------------------------------|---------------------------|------------------------------------------|--------------------------------------|
 | **VCC** (+5V)                | 7408 (Pin 14)             | VCC                                      | Power for AND gates                  |
-|                              | 7432 (Pin 14)             | VCC                                      | Power for OR gate                    |
-|                              | 7404 (Pin 14)             | VCC                                      | Power for NOT gate                   |
+| **VCC**                      | 7432 (Pin 14)             | VCC                                      | Power for OR gate                    |
+| **VCC**                      | 7404 (Pin 14)             | VCC                                      | Power for NOT gate                   |
 | **GND**                      | 7408 (Pin 7)              | GND                                      | Ground for AND gates                 |
-|                              | 7432 (Pin 7)              | GND                                      | Ground for OR gate                   |
-|                              | 7404 (Pin 7)              | GND                                      | Ground for NOT gate                  |
+| **GND**                      | 7432 (Pin 7)              | GND                                      | Ground for OR gate                   |
+|  **GND**                     | 7404 (Pin 7)              | GND                                      | Ground for NOT gate                  |
 | **Select input (S)**         | Input Switch              | 7404 (Pin 1)                             | S to NOT gate input                  |
 | **S̅ (NOT S)**               | 7404 (Pin 2)              | 7408 (Pin 2)                              | NOT S to AND gate 1 input B         |
 | **Data input I0**            | Input Switch              | 7408 (Pin 1)                             | I0 to AND gate 1 input A            |
@@ -977,7 +979,7 @@ A 4x1 multiplexer is a digital device that selects one of four input lines (I0�
 - Signal selection in communication systems
 
 - Arithmetic circuits and ALUs
-- 
+  
 
 ➤  **ICs Used for 4x1 Multiplexer (with 3-input AND, 2 NOT, 2 OR Gates)**
 
