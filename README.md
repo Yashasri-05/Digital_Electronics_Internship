@@ -376,7 +376,8 @@ The XNOR (Exclusive NOR) gate gives an output of 1 only when the inputs are the 
 ![image](https://github.com/user-attachments/assets/b7d118ec-ce1a-43d8-85dc-b2870a8a99ad)
 
 
-![image](https://github.com/user-attachments/assets/46cd2ec0-ef3e-4608-99ca-aae39e7f9781)
+![image](https://github.com/user-attachments/assets/75fe0ef2-211c-4ea7-b65d-81f750a951cd)
+
 
 
 ### 🔸 AND Gate using IC 7408
